@@ -1,0 +1,26 @@
+# --- Bỏ qua dữ liệu chạy ---
+inputs/*
+!inputs/sample_invoice.jpg  # (Giữ lại 1 ảnh mẫu nếu muốn)
+outputs/
+ocr_results/
+temp/
+ground_truth/
+final_evaluation_report.json
+
+# --- Bỏ qua Model nặng (Rất quan trọng) ---
+*.pth
+*.bin
+*.safetensors
+*.pt
+model_weights/
+deepseek-ai/
+
+# --- Bỏ qua môi trường ảo và cache ---
+venv/
+env/
+tomenv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
