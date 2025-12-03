@@ -45,7 +45,7 @@ Hệ thống trích xuất thông tin hóa đơn tự động (End-to-End Invoic
 
 ## Hướng dẫn chạy
 
-Thay đổi đường dẫn INPUT_PATH/OUTPUT_PATH and và các cài đặt khác trong DeepSeek-OCR-master/DeepSeek-OCR-vllm/config.py
+Thay đổi đường dẫn INPUT_PATH/OUTPUT_PATH trong master_pipeline.py và các cài đặt khác của OCR trong DeepSeek-OCR-master/DeepSeek-OCR-vllm/config.py
 ```text
    python master_pipeline.py
 ```
