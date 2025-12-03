@@ -1,0 +1,2727 @@
+{
+  "per_image_results": [
+    {
+      "image_id": "Bach_Hoa_Xanh_image_1",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.2,
+        "wer": 0.2243,
+        "cer": 0.2208
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 10",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 8,
+          "normalized_edit_distance": 0.8889,
+          "wer": 0.8889,
+          "cer": 0.875
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 10, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 44,
+          "normalized_edit_distance": 0.9778,
+          "wer": 0.9778,
+          "cer": 0.973
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "5654B425CF",
+          "ground_truth": "OV109141411144292",
+          "match": false,
+          "edit_distance": 15,
+          "normalized_edit_distance": 0.8824,
+          "wer": 0.8824,
+          "cer": 0.8824
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "5654B425CF",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 10,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "01/11/2024",
+          "ground_truth": "01/11/2024",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "buy_time": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "07:24",
+          "ground_truth": "07:24",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "line_item": {
+          "total_items": 1,
+          "correct_items": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "edit_metrics": {
+            "avg_edit_distance": 1.8,
+            "avg_normalized_edit_distance": 0.2745,
+            "avg_wer": 0.2745,
+            "avg_cer": 0.2762
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 5,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.8182,
+                "recall": 0.8182,
+                "f1_score": 0.8182,
+                "accuracy": 0.6923,
+                "match": false,
+                "edit_distance": 2,
+                "normalized_edit_distance": 0.0392,
+                "wer": 0.0392,
+                "cer": 0.0476
+              },
+              "unit_price": {
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1_score": 0.5,
+                "accuracy": 0.3333,
+                "match": false,
+                "edit_distance": 2,
+                "normalized_edit_distance": 0.3333,
+                "wer": 0.3333,
+                "cer": 0.3333
+              },
+              "product_total": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.6286,
+        "recall": 0.8,
+        "f1_score": 0.704,
+        "accuracy": 0.6571,
+        "avg_edit_distance": 7.32,
+        "avg_normalized_edit_distance": 0.4311,
+        "avg_wer": 0.4311,
+        "avg_cer": 0.4302
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_14",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.3239,
+        "wer": 0.3028,
+        "cer": 0.2854
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Co.opmart",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": false,
+          "edit_distance": 12,
+          "normalized_edit_distance": 0.9231,
+          "wer": 0.9231,
+          "cer": 0.9091
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 10",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 8,
+          "normalized_edit_distance": 0.8889,
+          "wer": 0.8889,
+          "cer": 0.875
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 10, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 44,
+          "normalized_edit_distance": 0.9778,
+          "wer": 0.9778,
+          "cer": 0.973
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "QV10613641118295",
+          "ground_truth": "OV106136411118295",
+          "match": false,
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.1176,
+          "wer": 0.1176,
+          "cer": 0.1176
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "QV10613641118295",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 16,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "01/11/2024",
+          "ground_truth": "01/11/2024",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "buy_time": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "14:06",
+          "ground_truth": "14:06",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "line_item": {
+          "total_items": 2,
+          "correct_items": 1,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1_score": 0.5,
+          "accuracy": 0.5,
+          "edit_metrics": {
+            "avg_edit_distance": 5.4,
+            "avg_normalized_edit_distance": 0.4381,
+            "avg_wer": 0.4381,
+            "avg_cer": 0.4353
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 12,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 1.0,
+                "recall": 0.7778,
+                "f1_score": 0.875,
+                "accuracy": 0.7778,
+                "match": false,
+                "edit_distance": 8,
+                "normalized_edit_distance": 0.1905,
+                "wer": 0.1905,
+                "cer": 0.1765
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.5714,
+                "wer": 0.5714,
+                "cer": 0.5714
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 3,
+                "normalized_edit_distance": 0.4286,
+                "wer": 0.4286,
+                "cer": 0.4286
+              }
+            },
+            {
+              "item_index": 1,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 0,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_name": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 37,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.35,
+        "recall": 0.45,
+        "f1_score": 0.3937,
+        "accuracy": 0.3714,
+        "avg_edit_distance": 9.1886,
+        "avg_normalized_edit_distance": 0.5102,
+        "avg_wer": 0.5102,
+        "avg_cer": 0.5062
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_15",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.2786,
+        "wer": 0.2558,
+        "cer": 0.2427
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Ph� Thọ Thanh Toán Bách Hóa Xanh",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 30,
+          "normalized_edit_distance": 0.9375,
+          "wer": 0.9375,
+          "cer": 0.9231
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Ph� Thọ",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 7,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "QV106136411118298",
+          "ground_truth": "OV106136411118298",
+          "match": false,
+          "edit_distance": 1,
+          "normalized_edit_distance": 0.0588,
+          "wer": 0.0588,
+          "cer": 0.0588
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "QV106136411118298",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 17,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "f1_score": 0.3333,
+          "accuracy": 0.2,
+          "predicted": "24/05/2024",
+          "ground_truth": "01/11/2024",
+          "match": false,
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.4,
+          "wer": 0.4,
+          "cer": 0.4
+        },
+        "buy_time": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1_score": 0.6667,
+          "accuracy": 0.5,
+          "predicted": "14:14:44",
+          "ground_truth": "14:14",
+          "match": false,
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375,
+          "wer": 0.375,
+          "cer": 0.375
+        },
+        "line_item": {
+          "total_items": 2,
+          "correct_items": 1,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1_score": 0.5,
+          "accuracy": 0.5,
+          "edit_metrics": {
+            "avg_edit_distance": 5.0,
+            "avg_normalized_edit_distance": 0.7524,
+            "avg_wer": 0.7524,
+            "avg_cer": 0.7496
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 2,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_name": {
+                "precision": 1.0,
+                "recall": 0.7778,
+                "f1_score": 0.875,
+                "accuracy": 0.7778,
+                "match": false,
+                "edit_distance": 8,
+                "normalized_edit_distance": 0.1905,
+                "wer": 0.1905,
+                "cer": 0.1765
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 7,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1_score": 0.6667,
+                "accuracy": 0.5,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.5714,
+                "wer": 0.5714,
+                "cer": 0.5714
+              }
+            },
+            {
+              "item_index": 1,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 0,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_name": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 37,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.3579,
+        "recall": 0.4727,
+        "f1_score": 0.4074,
+        "accuracy": 0.3457,
+        "avg_edit_distance": 7.3143,
+        "avg_normalized_edit_distance": 0.6242,
+        "avg_wer": 0.6242,
+        "avg_cer": 0.6219
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_17",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.2835,
+        "wer": 0.2644,
+        "cer": 0.2582
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 3",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.875,
+          "wer": 0.875,
+          "cer": 0.8571
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 3, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 43,
+          "normalized_edit_distance": 0.9773,
+          "wer": 0.9773,
+          "cer": 0.9722
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "389690B5F8",
+          "ground_truth": "OV105169411057527",
+          "match": false,
+          "edit_distance": 13,
+          "normalized_edit_distance": 0.7647,
+          "wer": 0.7647,
+          "cer": 0.7647
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "389690B5F8",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 10,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 0.5,
+          "recall": 0.3333,
+          "f1_score": 0.4,
+          "accuracy": 0.25,
+          "predicted": "01/01/2024",
+          "ground_truth": "02/11/2024",
+          "match": false,
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.2,
+          "wer": 0.2,
+          "cer": 0.2
+        },
+        "buy_time": {
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1_score": 0.4,
+          "accuracy": 0.25,
+          "predicted": "20:22:29",
+          "ground_truth": "20:41",
+          "match": false,
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625,
+          "wer": 0.625,
+          "cer": 0.625
+        },
+        "line_item": {
+          "total_items": 5,
+          "correct_items": 4,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1_score": 0.8,
+          "accuracy": 0.8,
+          "edit_metrics": {
+            "avg_edit_distance": 7.65,
+            "avg_normalized_edit_distance": 0.5763,
+            "avg_wer": 0.5763,
+            "avg_cer": 0.5784
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 34,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.8571,
+                "recall": 0.8571,
+                "f1_score": 0.8571,
+                "accuracy": 0.75,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.0294,
+                "wer": 0.0294,
+                "cer": 0.0357
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.6667,
+                "wer": 0.6667,
+                "cer": 0.6667
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.6667,
+                "wer": 0.6667,
+                "cer": 0.6667
+              }
+            },
+            {
+              "item_index": 1,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 42,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1_score": 0.75,
+                "accuracy": 0.6,
+                "match": false,
+                "edit_distance": 2,
+                "normalized_edit_distance": 0.0476,
+                "wer": 0.0476,
+                "cer": 0.0526
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 5,
+                "normalized_edit_distance": 0.8333,
+                "wer": 0.8333,
+                "cer": 0.8333
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 5,
+                "normalized_edit_distance": 0.8333,
+                "wer": 0.8333,
+                "cer": 0.8333
+              }
+            },
+            {
+              "item_index": 2,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 28,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.6667,
+                "recall": 0.6667,
+                "f1_score": 0.6667,
+                "accuracy": 0.5,
+                "match": false,
+                "edit_distance": 2,
+                "normalized_edit_distance": 0.0714,
+                "wer": 0.0714,
+                "cer": 0.0833
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 5,
+                "normalized_edit_distance": 0.8333,
+                "wer": 0.8333,
+                "cer": 0.8333
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.6667,
+                "wer": 0.6667,
+                "cer": 0.6667
+              }
+            },
+            {
+              "item_index": 3,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_name": {
+                "precision": 0.7,
+                "recall": 0.7,
+                "f1_score": 0.7,
+                "accuracy": 0.5385,
+                "match": false,
+                "edit_distance": 3,
+                "normalized_edit_distance": 0.0769,
+                "wer": 0.0769,
+                "cer": 0.0968
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 5,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1_score": 0.5,
+                "accuracy": 0.3333,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.8,
+                "wer": 0.8,
+                "cer": 0.8
+              }
+            },
+            {
+              "item_index": 4,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 0,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_name": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 41,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 6,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 6,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.4629,
+        "recall": 0.57,
+        "f1_score": 0.5109,
+        "accuracy": 0.4486,
+        "avg_edit_distance": 9.9171,
+        "avg_normalized_edit_distance": 0.6112,
+        "avg_wer": 0.6112,
+        "avg_cer": 0.6101
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_16",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.5368,
+        "wer": 0.5008,
+        "cer": 0.5025
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phu Tho Thanh Toan Bách Hóa Xanh",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 30,
+          "normalized_edit_distance": 0.9375,
+          "wer": 0.9375,
+          "cer": 0.9231
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phu Tho",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 7,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "07113645411020523",
+          "ground_truth": "OV113645411020523",
+          "match": false,
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.1176,
+          "wer": 0.1176,
+          "cer": 0.1176
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "BD41759D92",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 10,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "f1_score": 0.3333,
+          "accuracy": 0.2,
+          "predicted": "24/11/2021",
+          "ground_truth": "02/11/2024",
+          "match": false,
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.3,
+          "wer": 0.3,
+          "cer": 0.3
+        },
+        "buy_time": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "18:18",
+          "ground_truth": "18:18",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "line_item": {
+          "total_items": 1,
+          "correct_items": 1,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1_score": 0.5,
+          "accuracy": 1.0,
+          "edit_metrics": {
+            "avg_edit_distance": 2.6,
+            "avg_normalized_edit_distance": 0.2471,
+            "avg_wer": 0.2471,
+            "avg_cer": 0.25
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 5,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.8333,
+                "recall": 0.7143,
+                "f1_score": 0.7692,
+                "accuracy": 0.625,
+                "match": false,
+                "edit_distance": 8,
+                "normalized_edit_distance": 0.2353,
+                "wer": 0.2353,
+                "cer": 0.25
+              },
+              "unit_price": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_total": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.3,
+        "recall": 0.6727,
+        "f1_score": 0.415,
+        "accuracy": 0.5886,
+        "avg_edit_distance": 5.4971,
+        "avg_normalized_edit_distance": 0.3864,
+        "avg_wer": 0.3864,
+        "avg_cer": 0.3863
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_7",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.2149,
+        "wer": 0.2425,
+        "cer": 0.2391
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 10",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 8,
+          "normalized_edit_distance": 0.8889,
+          "wer": 0.8889,
+          "cer": 0.875
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 10, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 44,
+          "normalized_edit_distance": 0.9778,
+          "wer": 0.9778,
+          "cer": 0.973
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "B 0CDC86C0",
+          "ground_truth": "OV107665411174124",
+          "match": false,
+          "edit_distance": 16,
+          "normalized_edit_distance": 0.9412,
+          "wer": 0.9412,
+          "cer": 0.9412
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "null",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 4,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1_score": 0.6667,
+          "accuracy": 0.5,
+          "predicted": "24/11/2024",
+          "ground_truth": "01/11/2024",
+          "match": false,
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.2,
+          "wer": 0.2,
+          "cer": 0.2
+        },
+        "buy_time": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1_score": 0.5,
+          "accuracy": 0.3333,
+          "predicted": "11:00",
+          "ground_truth": "11:36",
+          "match": false,
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.4,
+          "wer": 0.4,
+          "cer": 0.4
+        },
+        "line_item": {
+          "total_items": 1,
+          "correct_items": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "edit_metrics": {
+            "avg_edit_distance": 4.2,
+            "avg_normalized_edit_distance": 0.5383,
+            "avg_wer": 0.5383,
+            "avg_cer": 0.5381
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.8889,
+                "recall": 0.8,
+                "f1_score": 0.8421,
+                "accuracy": 0.7273,
+                "match": false,
+                "edit_distance": 6,
+                "normalized_edit_distance": 0.12,
+                "wer": 0.12,
+                "cer": 0.119
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 7,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1_score": 0.6667,
+                "accuracy": 0.5,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.5714,
+                "wer": 0.5714,
+                "cer": 0.5714
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.5636,
+        "recall": 0.7,
+        "f1_score": 0.6245,
+        "accuracy": 0.5571,
+        "avg_edit_distance": 8.1943,
+        "avg_normalized_edit_distance": 0.5931,
+        "avg_wer": 0.5931,
+        "avg_cer": 0.5915
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_10",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.3327,
+        "wer": 0.308,
+        "cer": 0.2959
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 1",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.875,
+          "wer": 0.875,
+          "cer": 0.8571
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường 1, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 43,
+          "normalized_edit_distance": 0.9773,
+          "wer": 0.9773,
+          "cer": 0.9722
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "3BFB521291",
+          "ground_truth": "OV203854411137356",
+          "match": false,
+          "edit_distance": 15,
+          "normalized_edit_distance": 0.8824,
+          "wer": 0.8824,
+          "cer": 0.8824
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "3BFB521291",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 10,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1_score": 0.6667,
+          "accuracy": 0.5,
+          "predicted": "21/11/2024",
+          "ground_truth": "01/11/2024",
+          "match": false,
+          "edit_distance": 1,
+          "normalized_edit_distance": 0.1,
+          "wer": 0.1,
+          "cer": 0.1
+        },
+        "buy_time": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1_score": 0.5,
+          "accuracy": 0.3333,
+          "predicted": "13:00",
+          "ground_truth": "15:13",
+          "match": false,
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.6,
+          "wer": 0.6,
+          "cer": 0.6
+        },
+        "line_item": {
+          "total_items": 1,
+          "correct_items": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "edit_metrics": {
+            "avg_edit_distance": 11.8,
+            "avg_normalized_edit_distance": 0.4078,
+            "avg_wer": 0.4078,
+            "avg_cer": 0.4095
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 51,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.9091,
+                "recall": 0.9091,
+                "f1_score": 0.9091,
+                "accuracy": 0.8333,
+                "match": false,
+                "edit_distance": 2,
+                "normalized_edit_distance": 0.0392,
+                "wer": 0.0392,
+                "cer": 0.0476
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 3,
+                "normalized_edit_distance": 0.5,
+                "wer": 0.5,
+                "cer": 0.5
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 3,
+                "normalized_edit_distance": 0.5,
+                "wer": 0.5,
+                "cer": 0.5
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.5714,
+        "recall": 0.7,
+        "f1_score": 0.6292,
+        "accuracy": 0.5571,
+        "avg_edit_distance": 11.4914,
+        "avg_normalized_edit_distance": 0.5432,
+        "avg_wer": 0.5432,
+        "avg_cer": 0.542
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_12",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.2958,
+        "wer": 0.2794,
+        "cer": 0.262
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường Thanh Thủy",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 16,
+          "normalized_edit_distance": 0.9412,
+          "wer": 0.9412,
+          "cer": 0.9333
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phường Thanh Thủy, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 52,
+          "normalized_edit_distance": 0.9811,
+          "wer": 0.9811,
+          "cer": 0.9773
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "A9DEFD4E41",
+          "ground_truth": "OV103836411142452",
+          "match": false,
+          "edit_distance": 15,
+          "normalized_edit_distance": 0.8824,
+          "wer": 0.8824,
+          "cer": 0.8824
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "null",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 4,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "01/11/2024",
+          "ground_truth": "01/11/2024",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "buy_time": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "12:54",
+          "ground_truth": "12:54",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "line_item": {
+          "total_items": 2,
+          "correct_items": 1,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1_score": 0.5,
+          "accuracy": 0.5,
+          "edit_metrics": {
+            "avg_edit_distance": 5.2,
+            "avg_normalized_edit_distance": 0.8095,
+            "avg_wer": 0.8095,
+            "avg_cer": 0.8067
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_name": {
+                "precision": 1.0,
+                "recall": 0.7778,
+                "f1_score": 0.875,
+                "accuracy": 0.7778,
+                "match": false,
+                "edit_distance": 8,
+                "normalized_edit_distance": 0.1905,
+                "wer": 0.1905,
+                "cer": 0.1765
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 7,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 6,
+                "normalized_edit_distance": 0.8571,
+                "wer": 0.8571,
+                "cer": 0.8571
+              }
+            },
+            {
+              "item_index": 1,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 0,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_name": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 37,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.4087,
+        "recall": 0.6,
+        "f1_score": 0.4862,
+        "accuracy": 0.4571,
+        "avg_edit_distance": 9.5371,
+        "avg_normalized_edit_distance": 0.6499,
+        "avg_wer": 0.6499,
+        "avg_cer": 0.6478
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_11",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.2341,
+        "wer": 0.1974,
+        "cer": 0.1946
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phương Nam",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 9,
+          "normalized_edit_distance": 0.9,
+          "wer": 0.9,
+          "cer": 0.8889
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phương Nam Supermarket, 123 Hoàng Diệu, Phường 12, Thành phố Ph�c Yên, TP.Ph�c Yên, Vietnam",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 87,
+          "normalized_edit_distance": 0.956,
+          "wer": 0.956,
+          "cer": 0.9481
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "234F324579",
+          "ground_truth": "OV106475411265740",
+          "match": false,
+          "edit_distance": 13,
+          "normalized_edit_distance": 0.7647,
+          "wer": 0.7647,
+          "cer": 0.7647
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "234F324579",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 10,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "01/11/2024",
+          "ground_truth": "01/11/2024",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "buy_time": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "18:32",
+          "ground_truth": "18:32",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "line_item": {
+          "total_items": 3,
+          "correct_items": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "edit_metrics": {
+            "avg_edit_distance": 0.9333,
+            "avg_normalized_edit_distance": 0.2741,
+            "avg_wer": 0.2741,
+            "avg_cer": 0.2759
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.9091,
+                "recall": 0.9091,
+                "f1_score": 0.9091,
+                "accuracy": 0.8333,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.0213,
+                "wer": 0.0213,
+                "cer": 0.027
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.1667,
+                "wer": 0.1667,
+                "cer": 0.1667
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.1667,
+                "wer": 0.1667,
+                "cer": 0.1667
+              }
+            },
+            {
+              "item_index": 1,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.8889,
+                "recall": 0.8889,
+                "f1_score": 0.8889,
+                "accuracy": 0.8,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.0222,
+                "wer": 0.0222,
+                "cer": 0.0263
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.1667,
+                "wer": 0.1667,
+                "cer": 0.1667
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.1667,
+                "wer": 0.1667,
+                "cer": 0.1667
+              }
+            },
+            {
+              "item_index": 2,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.8,
+                "recall": 0.8,
+                "f1_score": 0.8,
+                "accuracy": 0.6667,
+                "match": false,
+                "edit_distance": 3,
+                "normalized_edit_distance": 0.0682,
+                "wer": 0.0682,
+                "cer": 0.0857
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.1667,
+                "wer": 0.1667,
+                "cer": 0.1667
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.1667,
+                "wer": 0.1667,
+                "cer": 0.1667
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.5778,
+        "recall": 0.8,
+        "f1_score": 0.671,
+        "accuracy": 0.6571,
+        "avg_edit_distance": 10.5733,
+        "avg_normalized_edit_distance": 0.42,
+        "avg_wer": 0.42,
+        "avg_cer": 0.4191
+      }
+    },
+    {
+      "image_id": "Bach_Hoa_Xanh_image_3",
+      "text_metrics": {
+        "exact_match": false,
+        "normalized_edit_distance": 0.1567,
+        "wer": 0.1868,
+        "cer": 0.1811
+      },
+      "field_metrics": {
+        "retailer_name": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "Bách Hóa Xanh",
+          "ground_truth": "Bách Hóa Xanh",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "store_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phương Tính Thanh Toán Bách Hóa Xanh",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 34,
+          "normalized_edit_distance": 0.9444,
+          "wer": 0.9444,
+          "cer": 0.9333
+        },
+        "store_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "Phương Tính Thanh Toán Bách Hóa Xanh",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 34,
+          "normalized_edit_distance": 0.9444,
+          "wer": 0.9444,
+          "cer": 0.9333
+        },
+        "bill_id": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "C915E73C66",
+          "ground_truth": "OV205396411111170",
+          "match": false,
+          "edit_distance": 15,
+          "normalized_edit_distance": 0.8824,
+          "wer": 0.8824,
+          "cer": 0.8824
+        },
+        "bill_id_barcode": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "predicted": "null",
+          "ground_truth": "None",
+          "match": false,
+          "edit_distance": 4,
+          "normalized_edit_distance": 1.0,
+          "wer": 1.0,
+          "cer": 1.0
+        },
+        "buy_date": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "accuracy": 1.0,
+          "predicted": "01/11/2024",
+          "ground_truth": "01/11/2024",
+          "match": true,
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0,
+          "wer": 0.0,
+          "cer": 0.0
+        },
+        "buy_time": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1_score": 0.8,
+          "accuracy": 0.6667,
+          "predicted": "09:18:00",
+          "ground_truth": "09:18",
+          "match": false,
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375,
+          "wer": 0.375,
+          "cer": 0.375
+        },
+        "line_item": {
+          "total_items": 4,
+          "correct_items": 3,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1_score": 0.75,
+          "accuracy": 0.75,
+          "edit_metrics": {
+            "avg_edit_distance": 2.5333,
+            "avg_normalized_edit_distance": 0.4238,
+            "avg_wer": 0.4238,
+            "avg_cer": 0.425
+          },
+          "item_details": [
+            {
+              "item_index": 0,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.8182,
+                "recall": 0.9,
+                "f1_score": 0.8571,
+                "accuracy": 0.75,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.0217,
+                "wer": 0.0217,
+                "cer": 0.027
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.5714,
+                "wer": 0.5714,
+                "cer": 0.5714
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.5714,
+                "wer": 0.5714,
+                "cer": 0.5714
+              }
+            },
+            {
+              "item_index": 1,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.8889,
+                "recall": 0.8889,
+                "f1_score": 0.8889,
+                "accuracy": 0.8,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.0238,
+                "wer": 0.0238,
+                "cer": 0.0294
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.5714,
+                "wer": 0.5714,
+                "cer": 0.5714
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.5714,
+                "wer": 0.5714,
+                "cer": 0.5714
+              }
+            },
+            {
+              "item_index": 2,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "accuracy": 1.0,
+                "match": true,
+                "edit_distance": 0,
+                "normalized_edit_distance": 0.0,
+                "wer": 0.0,
+                "cer": 0.0
+              },
+              "product_name": {
+                "precision": 0.7778,
+                "recall": 0.875,
+                "f1_score": 0.8235,
+                "accuracy": 0.7,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 0.0263,
+                "wer": 0.0263,
+                "cer": 0.0323
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 4,
+                "normalized_edit_distance": 0.5714,
+                "wer": 0.5714,
+                "cer": 0.5714
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 3,
+                "normalized_edit_distance": 0.4286,
+                "wer": 0.4286,
+                "cer": 0.4286
+              }
+            },
+            {
+              "item_index": 3,
+              "product_SKU": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 0,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "quantity": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_name": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 37,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "unit_price": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              },
+              "product_total": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "accuracy": 0.0,
+                "match": false,
+                "edit_distance": 1,
+                "normalized_edit_distance": 1.0,
+                "wer": 1.0,
+                "cer": 1.0
+              }
+            }
+          ]
+        }
+      },
+      "overall_image_score": {
+        "precision": 0.492,
+        "recall": 0.7,
+        "f1_score": 0.5779,
+        "accuracy": 0.5286,
+        "avg_edit_distance": 8.7276,
+        "avg_normalized_edit_distance": 0.5249,
+        "avg_wer": 0.5249,
+        "avg_cer": 0.5235
+      }
+    }
+  ],
+  "summary": {
+    "total_images": 10,
+    "text_metrics_summary": {
+      "exact_match_rate": 0.0,
+      "avg_normalized_edit_distance": 0.2857,
+      "avg_wer": 0.2762,
+      "avg_cer": 0.2682
+    },
+    "field_level_summary": {
+      "retailer_name": {
+        "avg_precision": 0.9,
+        "avg_recall": 0.9,
+        "avg_f1_score": 0.9,
+        "avg_accuracy": 0.9,
+        "avg_edit_distance": 1.2,
+        "avg_normalized_edit_distance": 0.0923,
+        "avg_wer": 0.0923,
+        "avg_cer": 0.0909,
+        "total_correct": 9,
+        "total_samples": 10
+      },
+      "store_name": {
+        "avg_precision": 0.0,
+        "avg_recall": 0.0,
+        "avg_f1_score": 0.0,
+        "avg_accuracy": 0.0,
+        "avg_edit_distance": 15.7,
+        "avg_normalized_edit_distance": 0.9077,
+        "avg_wer": 0.9077,
+        "avg_cer": 0.8941,
+        "total_correct": 0,
+        "total_samples": 10
+      },
+      "store_address": {
+        "avg_precision": 0.0,
+        "avg_recall": 0.0,
+        "avg_f1_score": 0.0,
+        "avg_accuracy": 0.0,
+        "avg_edit_distance": 40.5,
+        "avg_normalized_edit_distance": 0.9769,
+        "avg_wer": 0.9769,
+        "avg_cer": 0.9722,
+        "total_correct": 0,
+        "total_samples": 10
+      },
+      "bill_id": {
+        "avg_precision": 0.0,
+        "avg_recall": 0.0,
+        "avg_f1_score": 0.0,
+        "avg_accuracy": 0.0,
+        "avg_edit_distance": 10.7,
+        "avg_normalized_edit_distance": 0.6294,
+        "avg_wer": 0.6294,
+        "avg_cer": 0.6294,
+        "total_correct": 0,
+        "total_samples": 10
+      },
+      "bill_id_barcode": {
+        "avg_precision": 0.0,
+        "avg_recall": 0.0,
+        "avg_f1_score": 0.0,
+        "avg_accuracy": 0.0,
+        "avg_edit_distance": 9.5,
+        "avg_normalized_edit_distance": 1.0,
+        "avg_wer": 1.0,
+        "avg_cer": 1.0,
+        "total_correct": 0,
+        "total_samples": 10
+      },
+      "buy_date": {
+        "avg_precision": 0.75,
+        "avg_recall": 0.7333,
+        "avg_f1_score": 0.74,
+        "avg_accuracy": 0.665,
+        "avg_edit_distance": 1.2,
+        "avg_normalized_edit_distance": 0.12,
+        "avg_wer": 0.12,
+        "avg_cer": 0.12,
+        "total_correct": 5,
+        "total_samples": 10
+      },
+      "buy_time": {
+        "avg_precision": 0.75,
+        "avg_recall": 0.85,
+        "avg_f1_score": 0.7867,
+        "avg_accuracy": 0.7083,
+        "avg_edit_distance": 1.6,
+        "avg_normalized_edit_distance": 0.2375,
+        "avg_wer": 0.2375,
+        "avg_cer": 0.2375,
+        "total_correct": 5,
+        "total_samples": 10
+      }
+    },
+    "line_item": {
+      "avg_precision": 0.7383,
+      "avg_recall": 0.805,
+      "avg_f1_score": 0.755,
+      "avg_accuracy": 0.805,
+      "avg_edit_distance": 4.7117,
+      "avg_normalized_edit_distance": 0.4742,
+      "avg_wer": 0.4742,
+      "avg_cer": 0.4745,
+      "sub_fields": {
+        "product_SKU": {
+          "avg_precision": 0.0,
+          "avg_recall": 0.0,
+          "avg_f1_score": 0.0,
+          "avg_accuracy": 0.0,
+          "avg_edit_distance": 10.06,
+          "avg_normalized_edit_distance": 1.0,
+          "avg_wer": 1.0,
+          "avg_cer": 1.0
+        },
+        "quantity": {
+          "avg_precision": 0.685,
+          "avg_recall": 0.685,
+          "avg_f1_score": 0.685,
+          "avg_accuracy": 0.685,
+          "avg_edit_distance": 0.365,
+          "avg_normalized_edit_distance": 0.315,
+          "avg_wer": 0.315,
+          "avg_cer": 0.315
+        },
+        "product_name": {
+          "avg_precision": 0.7031,
+          "avg_recall": 0.6535,
+          "avg_f1_score": 0.6754,
+          "avg_accuracy": 0.5851,
+          "avg_edit_distance": 10.6967,
+          "avg_normalized_edit_distance": 0.277,
+          "avg_wer": 0.277,
+          "avg_cer": 0.2801
+        },
+        "unit_price": {
+          "avg_precision": 0.15,
+          "avg_recall": 0.15,
+          "avg_f1_score": 0.15,
+          "avg_accuracy": 0.1333,
+          "avg_edit_distance": 3.175,
+          "avg_normalized_edit_distance": 0.6331,
+          "avg_wer": 0.6331,
+          "avg_cer": 0.6331
+        },
+        "product_total": {
+          "avg_precision": 0.36,
+          "avg_recall": 0.285,
+          "avg_f1_score": 0.31,
+          "avg_accuracy": 0.2817,
+          "avg_edit_distance": 2.36,
+          "avg_normalized_edit_distance": 0.5103,
+          "avg_wer": 0.5103,
+          "avg_cer": 0.5103
+        }
+      }
+    },
+    "overall_summary": {
+      "precision": 0.4713,
+      "recall": 0.6465,
+      "f1_score": 0.542,
+      "accuracy": 0.5168,
+      "avg_edit_distance": 8.7761,
+      "avg_normalized_edit_distance": 0.5294,
+      "avg_wer": 0.5294,
+      "avg_cer": 0.5279
+    }
+  }
+}
