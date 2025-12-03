@@ -16,7 +16,7 @@ Hệ thống trích xuất thông tin hóa đơn tự động (End-to-End Invoic
 ├── inputs/               # Chứa ảnh hóa đơn đầu vào (.jpg, .png)
 ├── ground_truth/         # Chứa file JSON nhãn chuẩn (để đánh giá)
 ├── outputs/              # Chứa file JSON kết quả trích xuất
-├── ocr_results/          # Chứa file Markdown trung gian từ OCR
+├── ocr_outputs/          # Chứa file Markdown trung gian từ OCR
 ├── DeepSeek-OCR/         # Source code DeepSeek-OCR (vLLM version)
 ├── master_pipeline.py    # Script chính điều khiển toàn bộ quy trình
 ├── deepseek_llm_7b.py    # Module trích xuất thông tin (LLM)
