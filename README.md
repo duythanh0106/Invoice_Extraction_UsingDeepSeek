@@ -53,7 +53,7 @@ Quy trình xử lý bên trong:
 
 Step 1: Quét ảnh từ thư mục inputs/.
 
-Step 2 (OCR): Chạy DeepSeek-OCR (vLLM) để chuyển đổi ảnh sang định dạng Markdown. Kết quả lưu tại ocr_results/.
+Step 2 (OCR): Chạy DeepSeek-OCR (vLLM) để chuyển đổi ảnh sang định dạng Markdown. Kết quả lưu tại ocr_outputs/.
 
 Step 3 (Extraction): Chạy DeepSeek-LLM-7B để trích xuất thông tin từ Markdown sang JSON theo Schema định sẵn.
 
@@ -102,3 +102,7 @@ Mọi đóng góp vui lòng tạo Pull Request hoặc mở Issue
 
 ## License
 Project này sử dụng mã nguồn từ DeepSeek-AI. Tuân thủ giấy phép của repo gốc
+
+DeepSeek-OCR [https://github.com/deepseek-ai/DeepSeek-OCR/tree/main](https://github.com/deepseek-ai/DeepSeek-OCR/tree/main)
+
+DeepSeek-LLM [https://github.com/deepseek-ai/DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM)
