@@ -16,7 +16,7 @@ Hệ thống trích xuất thông tin hóa đơn tự động (End-to-End Invoic
 ├── inputs/               # Chứa ảnh hóa đơn đầu vào (.jpg, .png)
 ├── ground_truth/         # Chứa file JSON nhãn chuẩn (để đánh giá)
 ├── outputs/              # Chứa file JSON kết quả trích xuất
-├── ocr_results/          # Chứa file Markdown trung gian từ OCR
+├── ocr_outputs/          # Chứa file Markdown trung gian từ OCR
 ├── DeepSeek-OCR/         # Source code DeepSeek-OCR (vLLM version)
 ├── master_pipeline.py    # Script chính điều khiển toàn bộ quy trình
 ├── deepseek_llm_7b.py    # Module trích xuất thông tin (LLM)
@@ -44,6 +44,8 @@ Hệ thống trích xuất thông tin hóa đơn tự động (End-to-End Invoic
 ```
 
 ## Hướng dẫn chạy
+
+Thay đổi đường dẫn INPUT_PATH/OUTPUT_PATH trong master_pipeline.py và các cài đặt khác của OCR trong DeepSeek-OCR-master/DeepSeek-OCR-vllm/config.py
 ```text
    python master_pipeline.py
 ```
@@ -51,7 +53,7 @@ Quy trình xử lý bên trong:
 
 Step 1: Quét ảnh từ thư mục inputs/.
 
-Step 2 (OCR): Chạy DeepSeek-OCR (vLLM) để chuyển đổi ảnh sang định dạng Markdown. Kết quả lưu tại ocr_results/.
+Step 2 (OCR): Chạy DeepSeek-OCR (vLLM) để chuyển đổi ảnh sang định dạng Markdown. Kết quả lưu tại ocr_outputs/.
 
 Step 3 (Extraction): Chạy DeepSeek-LLM-7B để trích xuất thông tin từ Markdown sang JSON theo Schema định sẵn.
 
@@ -100,3 +102,7 @@ Mọi đóng góp vui lòng tạo Pull Request hoặc mở Issue
 
 ## License
 Project này sử dụng mã nguồn từ DeepSeek-AI. Tuân thủ giấy phép của repo gốc
+
+DeepSeek-OCR [https://github.com/deepseek-ai/DeepSeek-OCR/tree/main](https://github.com/deepseek-ai/DeepSeek-OCR/tree/main)
+
+DeepSeek-LLM [https://github.com/deepseek-ai/DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM)
