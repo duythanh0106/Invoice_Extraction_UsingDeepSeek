@@ -1,0 +1,25 @@
+{
+  "retailer_name": "Bách Hóa Xanh",
+  "store_name": "Ph� Thọ Thanh Toán Bách Hóa Xanh",
+  "store_address": "Ph� Thọ",
+  "bill_id": "QV106136411118298",
+  "bill_id_barcode": "QV106136411118298",
+  "buy_date": "24/05/2024",
+  "buy_time": "14:14:44",
+  "line_items": [
+    {
+      "product_SKU": "null",
+      "quantity": "24",
+      "product_name": "Nước tăng lực sting hương dâu 320ml",
+      "unit_price": "265",
+      "product_total": "188"
+    },
+    {
+      "product_SKU": "quà_tặng",
+      "quantity": "1",
+      "product_name": "Quà tặng",
+      "unit_price": "0",
+      "product_total": "0"
+    }
+  ]
+}

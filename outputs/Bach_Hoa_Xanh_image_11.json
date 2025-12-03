@@ -1,0 +1,32 @@
+{
+  "retailer_name": "Bách Hóa Xanh",
+  "store_name": "Phương Nam",
+  "store_address": "Phương Nam Supermarket, 123 Hoàng Diệu, Phường 12, Thành phố Ph�c Yên, TP.Ph�c Yên, Vietnam",
+  "bill_id": "234F324579",
+  "bill_id_barcode": "234F324579",
+  "buy_date": "01/11/2024",
+  "buy_time": "18:32",
+  "line_items": [
+    {
+      "product_SKU": "1",
+      "quantity": "1",
+      "product_name": "sửa chua ăn vnm không đường hộp 100g lốc 4 (al)",
+      "unit_price": "24000",
+      "product_total": "24000"
+    },
+    {
+      "product_SKU": "2",
+      "quantity": "1",
+      "product_name": "sửa đặc ngọc sao phương nam xanh lá lon 380g",
+      "unit_price": "20500",
+      "product_total": "20500"
+    },
+    {
+      "product_SKU": "3",
+      "quantity": "1",
+      "product_name": "nước tăng lực sting dầu sleek lon 330ml/320ml",
+      "unit_price": "11400",
+      "product_total": "11400"
+    }
+  ]
+}

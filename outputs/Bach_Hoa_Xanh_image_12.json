@@ -1,0 +1,25 @@
+{
+  "retailer_name": "Bách Hóa Xanh",
+  "store_name": "Phường Thanh Thủy",
+  "store_address": "Phường Thanh Thủy, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+  "bill_id": "A9DEFD4E41",
+  "bill_id_barcode": "null",
+  "buy_date": "01/11/2024",
+  "buy_time": "12:54",
+  "line_items": [
+    {
+      "product_SKU": "null",
+      "quantity": "2",
+      "product_name": "Nước tăng lực sting hương dâu 320ml",
+      "unit_price": "265",
+      "product_total": "530"
+    },
+    {
+      "product_SKU": "null",
+      "quantity": "1",
+      "product_name": "Quà tặng",
+      "unit_price": "0",
+      "product_total": "0"
+    }
+  ]
+}

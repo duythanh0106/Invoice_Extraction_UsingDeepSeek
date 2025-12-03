@@ -1,0 +1,25 @@
+{
+    "retailer_name": "Bách Hóa Xanh",
+    "store_name": null,
+    "store_address": null,
+    "bill_id": "OV106136411118298",
+    "bill_id_barcode": null,
+    "buy_date": "01/11/2024",
+    "buy_time": "14:14",
+    "line_item": [
+      {
+        "product_SKU": null,
+        "quantity": "1",
+        "product_name": "24 lon nước tăng lực sting hương dâu 320ml",
+        "unit_price": "188.000",
+        "product_total": "188.000"
+      },
+      {
+        "product_SKU": null,
+        "quantity": "1",
+        "product_name": "quà tặng: phí giao hàng bách hóa xanh",
+        "unit_price": "0",
+        "product_total": "0"
+      }
+    ]
+  }

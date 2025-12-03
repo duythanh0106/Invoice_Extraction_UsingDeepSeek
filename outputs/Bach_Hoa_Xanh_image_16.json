@@ -1,0 +1,32 @@
+{
+  "retailer_name": "Bách Hóa Xanh",
+  "store_name": "Phu Tho Thanh Toan Bách Hóa Xanh",
+  "store_address": "Phu Tho",
+  "bill_id": "07113645411020523",
+  "bill_id_barcode": "BD41759D92",
+  "buy_date": "24/11/2021",
+  "buy_time": "18:18",
+  "line_items": [
+    {
+      "product_SKU": "330ml",
+      "quantity": "3",
+      "product_name": "Nước tăng lực sting dầu chai",
+      "unit_price": "11.300",
+      "product_total": "33.900"
+    },
+    {
+      "product_SKU": "null",
+      "quantity": "50",
+      "product_name": "Tiền khách dưa",
+      "unit_price": "16.000",
+      "product_total": "800.000"
+    },
+    {
+      "product_SKU": "null",
+      "quantity": "null",
+      "product_name": "Thành tiền",
+      "unit_price": "null",
+      "product_total": "null"
+    }
+  ]
+}

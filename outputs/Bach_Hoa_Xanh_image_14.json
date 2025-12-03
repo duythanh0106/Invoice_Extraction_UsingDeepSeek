@@ -1,0 +1,25 @@
+{
+  "retailer_name": "Co.opmart",
+  "store_name": "Phường 10",
+  "store_address": "Phường 10, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+  "bill_id": "QV10613641118295",
+  "bill_id_barcode": "QV10613641118295",
+  "buy_date": "01/11/2024",
+  "buy_time": "14:06",
+  "line_items": [
+    {
+      "product_SKU": "120010001001",
+      "quantity": "1",
+      "product_name": "Nước tăng lực sting hương dâu 320ml",
+      "unit_price": "1200",
+      "product_total": "1880"
+    },
+    {
+      "product_SKU": "120010001002",
+      "quantity": "0",
+      "product_name": "Quà tặng",
+      "unit_price": "0",
+      "product_total": "0"
+    }
+  ]
+}

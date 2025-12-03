@@ -1,0 +1,18 @@
+{
+  "retailer_name": "Bách Hóa Xanh",
+  "store_name": "Phường 1",
+  "store_address": "Phường 1, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+  "bill_id": "3BFB521291",
+  "bill_id_barcode": "3BFB521291",
+  "buy_date": "21/11/2024",
+  "buy_time": "13:00",
+  "line_items": [
+    {
+      "product_SKU": "nước tăng lực sting dầu sleek lon 330ml/320ml lốc 6",
+      "quantity": "1",
+      "product_name": "Nước tăng lực sting dầu sleek lon 330ml/320ml lốc 6",
+      "unit_price": "67000",
+      "product_total": "67000"
+    }
+  ]
+}

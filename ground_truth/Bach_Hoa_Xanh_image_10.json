@@ -1,0 +1,18 @@
+ {
+    "retailer_name": "Bách Hóa Xanh",
+    "store_name": null,
+    "store_address": null,
+    "bill_id": "OV203854411137356",
+    "bill_id_barcode": null,
+    "buy_date": "01/11/2024",
+    "buy_time": "15:13",
+    "line_item": [
+      {
+        "product_SKU": null,
+        "quantity": "1",
+        "product_name": "nước tăng lực sting dâu sleek lon 330ml/320ml lốc 6",
+        "unit_price": "49.000",
+        "product_total": "49.000"
+      }
+    ]
+  }

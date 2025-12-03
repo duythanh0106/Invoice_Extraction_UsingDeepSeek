@@ -1,0 +1,18 @@
+{
+    "retailer_name": "Bách Hóa Xanh",
+    "store_name": null,
+    "store_address": null,
+    "bill_id": "OV113645411020523",
+    "bill_id_barcode": null,
+    "buy_date": "02/11/2024",
+    "buy_time": "18:18",
+    "line_item": [
+      {
+        "product_SKU": null,
+        "quantity": "3",
+        "product_name": "nước tăng lực sting dâu chai 330ml",
+        "unit_price": "11.300",
+        "product_total": "33.900"
+      }
+    ]
+  }

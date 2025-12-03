@@ -1,10 +1,5 @@
 # --- Bỏ qua dữ liệu chạy ---
-inputs/*
-!inputs/sample_invoice.jpg  # (Giữ lại 1 ảnh mẫu nếu muốn)
-outputs/
-ocr_results/
 temp/
-ground_truth/
 final_evaluation_report.json
 
 # --- Bỏ qua Model nặng (Rất quan trọng) ---

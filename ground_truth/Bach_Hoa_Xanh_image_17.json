@@ -1,0 +1,46 @@
+{
+    "retailer_name": "Bách Hóa Xanh",
+    "store_name": null,
+    "store_address": null,
+    "bill_id": "OV105169411057527",
+    "bill_id_barcode": null,
+    "buy_date": "02/11/2024",
+    "buy_time": "20:41",
+    "line_item": [
+      {
+        "product_SKU": null,
+        "quantity": "1",
+        "product_name": "kẹo hải hà chew vị nho đen gói 100g/90g",
+        "unit_price": "8.200",
+        "product_total": "8.200"
+      },
+      {
+        "product_SKU": null,
+        "quantity": "1",
+        "product_name": "kẹo alpenliebe orig gói 120g/119gam/115.5g",
+        "unit_price": "14.400",
+        "product_total": "14.400"
+      },
+      {
+        "product_SKU": null,
+        "quantity": "1",
+        "product_name": "kẹo dynamite bạc hà nhân socola gói 120gr",
+        "unit_price": "13.400",
+        "product_total": "13.400"
+      },
+      {
+        "product_SKU": null,
+        "quantity": "2",
+        "product_name": "kẹo oishi thập cẩm 160g/145g",
+        "unit_price": "10.800",
+        "product_total": "21.600"
+      },
+      {
+        "product_SKU": null,
+        "quantity": "2",
+        "product_name": "nước tăng lực sting dâu chai 330ml",
+        "unit_price": "11.300",
+        "product_total": "22.600"
+      }
+    ]
+  }

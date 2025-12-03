@@ -1,0 +1,46 @@
+{
+  "retailer_name": "Bách Hóa Xanh",
+  "store_name": "Phường 3",
+  "store_address": "Phường 3, Thành phố Ph� Xuân, Tỉnh Bắc Giang",
+  "bill_id": "389690B5F8",
+  "bill_id_barcode": "389690B5F8",
+  "buy_date": "01/01/2024",
+  "buy_time": "20:22:29",
+  "line_items": [
+    {
+      "product_SKU": "null",
+      "quantity": "2",
+      "product_name": "kéo hải hả chew vị nho đen gối 100g/90g",
+      "unit_price": "14.4",
+      "product_total": "28.8"
+    },
+    {
+      "product_SKU": "kéo alpenliebe orig gối 120g/119gam/115.5g",
+      "quantity": "1",
+      "product_name": "kéo alpenliebe orig gối 120g/119gam/115.5g",
+      "unit_price": "119",
+      "product_total": "119"
+    },
+    {
+      "product_SKU": "kéo dynamite bạc hả nhân 14.400",
+      "quantity": "1",
+      "product_name": "kéo dynamite bạc hả nhân 14.400",
+      "unit_price": "14400",
+      "product_total": "14400"
+    },
+    {
+      "product_SKU": "kéo olshi thập cẩm 160g/145g",
+      "quantity": "2",
+      "product_name": "kéo olshi thập cẩm 160g/145g",
+      "unit_price": "145",
+      "product_total": "290"
+    },
+    {
+      "product_SKU": "nước tăng lực sting dầu chai 330ml",
+      "quantity": "2",
+      "product_name": "nước tăng lực sting dầu chai 330ml",
+      "unit_price": "120",
+      "product_total": "240"
+    }
+  ]
+}
