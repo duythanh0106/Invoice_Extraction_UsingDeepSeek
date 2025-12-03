@@ -30,8 +30,8 @@ Hệ thống trích xuất thông tin hóa đơn tự động (End-to-End Invoic
    cd Invoice_Extraction_UsingDeepSeek
 ```
 2. Cài đặt thư viện:
+
    download the vllm-0.8.5 [https://github.com/vllm-project/vllm/releases/tag/v0.8.5](https://github.com/vllm-project/vllm/releases/tag/v0.8.5)
-   
 ```text
    pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu118
    pip install vllm-0.8.5+cu118-cp38-abi3-manylinux1_x86_64.whl
@@ -48,6 +48,7 @@ Hệ thống trích xuất thông tin hóa đơn tự động (End-to-End Invoic
    python master_pipeline.py
 ```
 Quy trình xử lý bên trong:
+
 Step 1: Quét ảnh từ thư mục inputs/.
 
 Step 2 (OCR): Chạy DeepSeek-OCR (vLLM) để chuyển đổi ảnh sang định dạng Markdown. Kết quả lưu tại ocr_results/.
@@ -99,6 +100,3 @@ Mọi đóng góp vui lòng tạo Pull Request hoặc mở Issue
 
 ## License
 Project này sử dụng mã nguồn từ DeepSeek-AI. Tuân thủ giấy phép của repo gốc
-
-
-
