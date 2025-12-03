@@ -24,9 +24,71 @@ Hệ thống trích xuất thông tin hóa đơn tự động (End-to-End Invoic
 ```
 
 ## ⚙️ Cài đặt
-Clone repository:
+1. Clone repository:
+   git clone [https://github.com/duythanh0106/Invoice_Extraction_UsingDeepSeek.git](https://github.com/duythanh0106/Invoice_Extraction_UsingDeepSeek.git)
+   cd Invoice_Extraction_UsingDeepSeek
 
-Bash
+2. Cài đặt thư viện:
+   download the vllm-0.8.5 whl
+   pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu118
+   pip install vllm-0.8.5+cu118-cp38-abi3-manylinux1_x86_64.whl
+   pip install flash-attn==2.7.3 --no-build-isolation
+   pip install -r requirements.txt
 
-git clone [https://github.com/duythanh0106/Invoice_Extraction_UsingDeepSeek.git](https://github.com/duythanh0106/Invoice_Extraction_UsingDeepSeek.git)
-cd Invoice_Extraction_UsingDeepSeek
+   _Lưu ý: Cần cài đặt thêm các thư viện hệ thống nếu chạy trên Linux:_
+   sudo apt-get update && sudo apt-get install libgl1
+
+## Hướng dẫn chạy
+python master_pipeline.py
+
+Quy trình xử lý bên trong:
+Step 1: Quét ảnh từ thư mục inputs/.
+
+Step 2 (OCR): Chạy DeepSeek-OCR (vLLM) để chuyển đổi ảnh sang định dạng Markdown. Kết quả lưu tại ocr_results/.
+
+Step 3 (Extraction): Chạy DeepSeek-LLM-7B để trích xuất thông tin từ Markdown sang JSON theo Schema định sẵn.
+
+Step 4 (Evaluation): So khớp file JSON kết quả với ground_truth/ và xuất báo cáo final_evaluation_report.json.
+
+## Kết quả đánh giá (10 ảnh):
+════════════════════════════════════════
+       📊 PERFORMANCE SUMMARY
+════════════════════════════════════════
+ Precision:       47.13%
+ Recall:          64.65%
+ F1 Score:        54.20%
+ Accuracy:        51.68%
+────────────────────────────────────────
+ Avg Edit Dist:   8.7761
+ Avg WER:         0.5294
+ Avg CER:         0.5279
+════════════════════════════════════════
+
+## Schema JSON:
+{
+  "retailer_name": "BÁCH HÓA XANH",
+  "store_name": null,
+  "store_address": null,
+  "bill_id": "OV109141411144292",
+  "bill_id_barcode": null,
+  "buy_date": "01/11/2024",
+  "buy_time": null,
+  "line_items": [
+    {
+      "product_SKU": null,
+      "quantity": 2,
+      "product_name": "nước tăng lực sting dâu...",
+      "unit_price": 49000,
+      "product_total": 98000
+    }
+  ]
+}
+
+## Contributing
+Mọi đóng góp vui lòng tạo Pull Request hoặc mở Issue
+
+## License
+Project này sử dụng mã nguồn từ DeepSeek-AI. Tuân thủ giấy phép của repo gốc
+
+
+
