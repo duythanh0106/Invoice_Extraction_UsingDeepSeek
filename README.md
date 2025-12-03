@@ -80,7 +80,7 @@ Step 4 (Evaluation): So khớp file JSON kết quả với ground_truth/ và xu�
   "bill_id": "OV109141411144292",
   "bill_id_barcode": null,
   "buy_date": "01/11/2024",
-  "buy_time": null,
+  "buy_time": 07:24,
   "line_items": [
     {
       "product_SKU": null,
