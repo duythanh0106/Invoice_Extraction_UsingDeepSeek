@@ -6,21 +6,20 @@ import json
 import re
 
 # ================= CẤU HÌNH ĐƯỜNG DẪN =================
-INPUT_DIR = "/home/thanhphan/Invoice-Extraction/inputs"
-GT_DIR = "/home/thanhphan/Invoice-Extraction/ground_truth"
-FINAL_OUTPUT_DIR = "/home/thanhphan/Invoice-Extraction/outputs"      # Nơi lưu JSON cuối cùng
-OCR_SAVE_DIR = "/home/thanhphan/Invoice-Extraction/ocr_outputs/"      # Nơi lưu file Markdown OCR vĩnh viễn
+INPUT_DIR = "inputs"            
+GT_DIR = "ground_truth"
+FINAL_OUTPUT_DIR = "outputs"      # lưu JSON 
+OCR_SAVE_DIR = "ocr_outputs/"      # lưu file Markdown OCR 
 EVAL_REPORT_FILE = "final_evaluation_report.json"
 
 # --- CẤU HÌNH DEEPSEEK (SỬA CHO ĐÚNG MÁY BẠN) ---
-DEEPSEEK_REPO_DIR = "/home/thanhphan/Invoice-Extraction/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm" 
+DEEPSEEK_REPO_DIR = "DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm" 
 PATH_TO_OCR_SCRIPT = os.path.join(DEEPSEEK_REPO_DIR, "run_dpsk_ocr_eval_batch.py")
 PATH_TO_CONFIG_FILE = os.path.join(DEEPSEEK_REPO_DIR, "config.py")
 
 PATH_TO_LLM_SCRIPT = "deepseek_llm_7b.py"
 PATH_TO_EVAL_SCRIPT = "parse_level_evaluate.py"
 
-# ================= CÁC HÀM XỬ LÝ =================
 
 def setup_dirs():
     os.makedirs(FINAL_OUTPUT_DIR, exist_ok=True)
@@ -41,11 +40,9 @@ def update_deepseek_config(config_path, input_path, output_path):
         with open(config_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # Sửa đường dẫn INPUT/OUTPUT
         content = re.sub(r"INPUT_PATH\s*=\s*['\"].*?['\"]", f"INPUT_PATH = '{abs_input}'", content)
         content = re.sub(r"OUTPUT_PATH\s*=\s*['\"].*?['\"]", f"OUTPUT_PATH = '{abs_output}'", content)
         
-        # Bắt buộc CROP_MODE = True (Quan trọng vì đọc ảnh gốc không cắt)
         content = re.sub(r"CROP_MODE\s*=\s*(False|True)", "CROP_MODE = True", content)
 
         with open(config_path, 'w', encoding='utf-8') as f:
@@ -62,7 +59,6 @@ def run_deepseek_ocr():
         print("Error: 'inputs' folder is empty!")
         sys.exit(1)
 
-    # Cấu hình để DeepSeek lưu thẳng vào OCR_SAVE_DIR
     update_deepseek_config(PATH_TO_CONFIG_FILE, INPUT_DIR, OCR_SAVE_DIR)
     
     # Chạy OCR
@@ -79,7 +75,7 @@ def run_deepseek_ocr():
 def run_deepseek_llm():
     print("\n>>> STEP 2: Running DeepSeek-LLM Extraction...")
     
-    # Dọn dẹp file rác _det.md nếu có
+    # Dọn dẹp file rác _det.md
     for f in os.listdir(OCR_SAVE_DIR):
         if "_det.md" in f:
             try: os.remove(os.path.join(OCR_SAVE_DIR, f))
