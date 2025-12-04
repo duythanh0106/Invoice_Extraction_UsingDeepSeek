@@ -1,6 +1,5 @@
 # --- Bỏ qua dữ liệu chạy ---
 temp/
-final_evaluation_report.json
 
 # --- Bỏ qua Model nặng (Rất quan trọng) ---
 *.pth

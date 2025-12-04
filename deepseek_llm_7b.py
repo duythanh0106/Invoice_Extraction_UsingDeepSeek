@@ -31,7 +31,7 @@ Your task is to extract data from the provided OCR text into a JSON object.
 
 1. **Retailer Name (Flexible)**: 
    - Look at the header (top) of the text.
-   - Identify the main **Brand Name** (e.g., "Bách Hóa Xanh", "Co.opmart", "Highlands Coffee").
+   - Identify the main **Brand Name** (e.g., "Bách Hóa Xanh").
    - **Constraint**: If the text contains the brand name, extract it. If the top section is garbled, missing, or unclear, set `"retailer_name": null`.
    - **Do NOT** default to "Bách Hóa Xanh" if the text does not support it.
 
@@ -44,22 +44,46 @@ Your task is to extract data from the provided OCR text into a JSON object.
    - Dates: Convert to DD/MM/YYYY.
    - Nulls: Use `null` for any missing field.
 
+For example: 
+    data:
+    '
+        PHIẾU THANH TOÁN BÁCH HÓA XANH  
+        Số CT: OV20539641111170 - 01/11/2024 09:18:NV: 236464 
+        SL    Giá bán (có VAT)    Thành tiền  
+        thùng 24 chai trà xanh không độ vị chanh 455ml  
+        1    245.000 168.000    168.000 '
+
+    output: 
+        retailer_name: 'BÁCH HÓA XANH',
+        store_name: null,
+        store_address: null,
+        bill_id: 'OV20539641111170'
+        bill_id_barcode: null,
+        buy_date: '01/11/2024',
+        buy_time: '09:18',
+        line_item:
+            product_SKU: null,
+            quantity: '1',
+            product_name: 'thùng 24 chai trà xanh không độ vị chanh 455ml',
+            unit_price: '168.000',
+            product_total: '168.000' 
+
 ### JSON SCHEMA:
 {{
   "retailer_name": "Brand name found in text (or null)",
   "store_name": "Store/Branch name (or null)",
   "store_address": "Address string (or null)",
-  "bill_id": "Invoice Number (Look for 'Số CT', 'Số HD', 'Inv No'...)",
+  "bill_id": "Invoice Number (Look for 'Số CT', or 'Số CN, or 'Số') (or null)",
   "bill_id_barcode": "Lookup code/Barcode string (or null)",
   "buy_date": "DD/MM/YYYY",
   "buy_time": "HH:MM",
   "line_items": [
     {{
       "product_SKU": "Product code (or null)",
-      "quantity": "Integer",
+      "quantity": "String",
       "product_name": "String",
-      "unit_price": "Integer",
-      "product_total": "Integer"
+      "unit_price": "String",
+      "product_total": "String"
     }}
   ]
 }}
