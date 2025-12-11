@@ -216,17 +216,21 @@ def evaluate_pair(gt_json: str, pred_json: str, file_name: str) -> Dict[str, Any
         total_components += 1
 
     # --- 2. Line Item Metrics ---
-    # A. Matching Logic (Tìm cặp dòng tương ứng dựa trên tên sản phẩm)
+    # A. Matching Logic (Greedy Best Match - Không dùng ngưỡng chặn 70%)
     match_candidates = []
     for i, g in enumerate(gt.line_items):
         for j, p in enumerate(pred.line_items):
-            # Chỉ ghép cặp nếu tên sản phẩm giống nhau > 70%
-            if fuzz.ratio(g.product_name.lower(), p.product_name.lower()) > 70:
-                match_candidates.append((fuzz.ratio(g.product_name, p.product_name), i, j))
+            # Tính điểm tương đồng cho TẤT CẢ các cặp
+            score = fuzz.ratio(g.product_name.lower(), p.product_name.lower())
+            match_candidates.append((score, i, j))
+    
+    # Sắp xếp các cặp có điểm cao nhất lên đầu
     match_candidates.sort(key=lambda x: x[0], reverse=True)
     
     matched_pairs = []
     used_g, used_p = set(), set()
+    
+    # Chọn cặp tốt nhất, miễn là chưa được sử dụng
     for _, i, j in match_candidates:
         if i not in used_g and j not in used_p:
             matched_pairs.append((gt.line_items[i], pred.line_items[j]))
@@ -248,7 +252,6 @@ def evaluate_pair(gt_json: str, pred_json: str, file_name: str) -> Dict[str, Any
     li_comps = 0
     
     sub_fields = ["product_SKU", "quantity", "product_name", "unit_price", "product_total"]
-    # Các trường cần chuẩn hóa số học
     NUMERIC_FIELDS = ["quantity", "unit_price", "product_total"]
     
     # C1. Xử lý các cặp đã khớp (Matched Pairs)
@@ -260,27 +263,23 @@ def evaluate_pair(gt_json: str, pred_json: str, file_name: str) -> Dict[str, Any
             
             # --- LOGIC CHUẨN HÓA SỐ HỌC ---
             if sf in NUMERIC_FIELDS:
-                # Nếu là số, loại bỏ dấu chấm/phẩy trước khi tính điểm
                 gv_calc = normalize_numeric(gv)
                 pv_calc = normalize_numeric(pv)
             else:
-                # Nếu là chữ (tên sp, sku), giữ nguyên
                 gv_calc = gv
                 pv_calc = pv
             # -------------------------------
 
-            # Tính điểm dựa trên giá trị đã (hoặc không) chuẩn hóa
             sp, sr, sf1, sacc = token_set_metrics(gv_calc, pv_calc)
             scm = calculate_char_metrics(gv_calc, pv_calc)
             sed = Levenshtein.distance(gv_calc, pv_calc)
             swer = word_error_rate(gv_calc, pv_calc)
             scer = character_error_rate(gv_calc, pv_calc)
             
-            # Kiểm tra match: Với số thì so sánh chuỗi số sạch, với chữ thì exact match
             is_match = (gv_calc == pv_calc) if sf in NUMERIC_FIELDS else exact_match(gv, pv)
 
             detail[sf] = {
-                "predicted": pv, "ground_truth": gv, # Hiển thị giá trị gốc để dễ debug
+                "predicted": pv, "ground_truth": gv,
                 "precision": sp, "recall": sr, "f1_score": sf1, "accuracy": sacc,
                 "char_precision": scm["char_precision"], "char_recall": scm["char_recall"],
                 "char_f1": scm["char_f1"], "char_accuracy": scm["char_accuracy"],
@@ -288,26 +287,44 @@ def evaluate_pair(gt_json: str, pred_json: str, file_name: str) -> Dict[str, Any
                 "edit_distance": sed, "wer": swer, "cer": scer
             }
             
-            # Cộng dồn thống kê cho Line Item
             li_accum["edit_distance"] += sed; li_accum["wer"] += swer; li_accum["cer"] += scer
             li_accum["char_precision"] += scm["char_precision"]; li_accum["char_recall"] += scm["char_recall"]
             li_accum["char_f1"] += scm["char_f1"]; li_accum["char_accuracy"] += scm["char_accuracy"]
             li_comps += 1
         item_details.append(detail)
         
-    # C2. Xử lý các dòng GT bị bỏ sót (Unmatched GT - False Negatives)
+    # C2. Xử lý các dòng GT bị bỏ sót (False Negatives - Missing in Pred)
     for i, g_item in enumerate(gt.line_items):
         if i not in used_g:
             detail = {"item_index": len(item_details)}
             for sf in sub_fields:
                 gv = getattr(g_item, sf)
-                # Với dòng thiếu, điểm số là 0, lỗi là tối đa
                 val_len = len(gv)
                 detail[sf] = {
                     "predicted": "N/A", "ground_truth": gv,
                     "precision": 0.0, "recall": 0.0, "f1_score": 0.0, "accuracy": 0.0,
                     "char_precision": 0.0, "char_recall": 0.0, "char_f1": 0.0, "char_accuracy": 0.0,
                     "match": False, "edit_distance": val_len, "wer": 1.0, "cer": 1.0
+                }
+                li_accum["edit_distance"] += val_len; li_accum["wer"] += 1.0; li_accum["cer"] += 1.0
+                li_comps += 1
+            item_details.append(detail)
+
+    # C3. Xử lý các dòng Pred bị thừa (False Positives - Extra in Pred)
+    for j, p_item in enumerate(pred.line_items):
+        if j not in used_p:
+            detail = {"item_index": len(item_details)}
+            for sf in sub_fields:
+                pv = getattr(p_item, sf)
+                val_len = len(pv)
+                detail[sf] = {
+                    "predicted": pv, "ground_truth": "N/A",
+                    "precision": 0.0, "recall": 0.0, "f1_score": 0.0, "accuracy": 0.0,
+                    "char_precision": 0.0, "char_recall": 0.0, "char_f1": 0.0, "char_accuracy": 0.0,
+                    "match": False, 
+                    "edit_distance": val_len, 
+                    "wer": 1.0, 
+                    "cer": 1.0
                 }
                 li_accum["edit_distance"] += val_len; li_accum["wer"] += 1.0; li_accum["cer"] += 1.0
                 li_comps += 1
@@ -329,13 +346,11 @@ def evaluate_pair(gt_json: str, pred_json: str, file_name: str) -> Dict[str, Any
     field_results["line_item"] = li_result
 
     # --- 3. Final Overall Calculation ---
-    # Thêm điểm hệ thống của Line Item (detection) vào Overall
     ov_accum["precision"] += li_prec
     ov_accum["recall"] += li_rec
     ov_accum["f1_score"] += li_f1
     ov_accum["accuracy"] += li_acc
     
-    # Thêm điểm nội dung (content) của Line Item vào Overall (Trung bình cộng)
     if li_comps > 0:
         ov_accum["char_precision"] += li_accum["char_precision"] / li_comps
         ov_accum["char_recall"] += li_accum["char_recall"] / li_comps
@@ -355,7 +370,6 @@ def evaluate_pair(gt_json: str, pred_json: str, file_name: str) -> Dict[str, Any
     overall["avg_wer"] = overall.pop("wer")
     overall["avg_cer"] = overall.pop("cer")
 
-    # Làm tròn toàn bộ kết quả trả về
     return recursive_round({
         "image_id": file_name.replace(".json", ""),
         "text_metrics": {
