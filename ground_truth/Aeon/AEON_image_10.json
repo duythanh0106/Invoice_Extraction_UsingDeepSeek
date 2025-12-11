@@ -1,0 +1,25 @@
+{
+    "retailer_name": "AEON",
+    "store_name": "AEON - LONG BIEN",
+    "store_address": null,
+    "bill_id": "2070003",
+    "bill_id_barcode": null,
+    "buy_date": "22/12/2024",
+    "buy_time": "10:54",
+    "line_item": [
+      {
+        "product_SKU": "000003128756",
+        "quantity": "51",
+        "product_name": "BỘ QUÀ TẶNG ORION TẾT AN BIG (1204.6G)",
+        "unit_price": "209.000",
+        "product_total": "10.659.000"
+      },
+      {
+        "product_SKU": "000010063897",
+        "quantity": "15",
+        "product_name": "EV-CHẢO CHỐNG DÍNH ELMICH EL-5956SK24 SI",
+        "unit_price": "179.000",
+        "product_total": "2.685.000"
+      }
+    ]
+  }

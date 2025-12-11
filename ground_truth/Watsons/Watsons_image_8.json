@@ -1,0 +1,32 @@
+{
+    "retailer_name": "Watsons",
+    "store_name": "AEON Binh Tan",
+    "store_address": "1 Đường Số 17A, Bình Trị Đông",
+    "bill_id": "00000AEBT3000112774",
+    "bill_id_barcode": null,
+    "buy_date": "30/06/2025",
+    "buy_time": "07:52",
+    "line_item": [
+      {
+        "product_SKU": "8936089070042",
+        "quantity": "2",
+        "product_name": "Gel Nha Đam Milaganics 150ml",
+        "unit_price": "76,000",
+        "product_total": "76,000"
+      },
+      {
+        "product_SKU": "4909978147105",
+        "quantity": "1",
+        "product_name": "Sữa Chống Nắng Anessa Dưỡng Da Kiềm",
+        "unit_price": "429,000",
+        "product_total": "429,000"
+      },
+      {
+        "product_SKU": "900200",
+        "quantity": "1",
+        "product_name": "Túi giấy Kraft thân thiện với môi trường",
+        "unit_price": "2,000",
+        "product_total": "0"
+      }
+    ]
+  }

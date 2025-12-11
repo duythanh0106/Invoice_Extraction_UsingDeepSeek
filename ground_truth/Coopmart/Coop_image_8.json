@@ -1,0 +1,32 @@
+{
+    "retailer_name": "Co.opmart",
+    "store_name": "Co.opmart Can Tho",
+    "store_address": "01 Hoa Binh, Phuong Tan An, Quan Ninh Kieu, Thanh pho Can Tho",
+    "bill_id": "M1-24-OPQD2-00490794686",
+    "bill_id_barcode": "0018700724121340020",
+    "buy_date": "13/12/2024",
+    "buy_time": "10:52",
+    "line_item": [
+      {
+        "product_SKU": "2000133723355",
+        "quantity": "4",
+        "product_name": "Bia HEINEKEN lon cao24x330m",
+        "unit_price": "433.900",
+        "product_total": "1.735.600"
+      },
+      {
+        "product_SKU": "8934680113168",
+        "quantity": "2",
+        "product_name": "B.LuVeri.Pet.Be.ht 6x100g-T",
+        "unit_price": "253.000",
+        "product_total": "506.000"
+      },
+      {
+        "product_SKU": "8936036024746",
+        "quantity": "24",
+        "product_name": "B.ANGiftSetTET3 OR hg1204.6",
+        "unit_price": "214.500",
+        "product_total": "5.148.000"
+      }
+    ]
+  }

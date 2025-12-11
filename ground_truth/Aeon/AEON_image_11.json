@@ -1,0 +1,18 @@
+{
+    "retailer_name": "AEON",
+    "store_name": "AEON - LONG BIEN",
+    "store_address": null,
+    "bill_id": "2070002",
+    "bill_id_barcode": null,
+    "buy_date": "22/12/2024",
+    "buy_time": "10:53",
+    "line_item": [
+      {
+        "product_SKU": "000003128756",
+        "quantity": "51",
+        "product_name": "BỘ QUÀ TẶNG ORION TẾT AN BIG (1204.6G)",
+        "unit_price": "209.000",
+        "product_total": "10.659.000"
+      }
+    ]
+  }

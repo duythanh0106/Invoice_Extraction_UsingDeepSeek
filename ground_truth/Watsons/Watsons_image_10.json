@@ -1,0 +1,25 @@
+{
+    "retailer_name": "Watsons",
+    "store_name": "Watsons Emart Phan Huy Ich",
+    "store_address": "1stFl,L1-04 Emart Phan Huy Ich385 Phan Huy Ich",
+    "bill_id": "000000PHI2000050918",
+    "bill_id_barcode": null,
+    "buy_date": "30/06/2025",
+    "buy_time": "07:26",
+    "line_item": [
+      {
+        "product_SKU": "4909978147105",
+        "quantity": "2",
+        "product_name": "Sữa Chống Nắng Anessa Dưỡng Da Kiềm",
+        "unit_price": "429,000",
+        "product_total": "772,200"
+      },
+      {
+        "product_SKU": "4894532988099",
+        "quantity": "1",
+        "product_name": "Khăn Giấy Bỏ Túi Watsons Hankies 3ply 10pcs",
+        "unit_price": "29,000",
+        "product_total": "26,100"
+      }
+    ]
+  }

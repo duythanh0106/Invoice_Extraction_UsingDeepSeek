@@ -1,0 +1,67 @@
+{
+    "retailer_name": "Watsons",
+    "store_name": "Watsons Emart Phan Huy Ich",
+    "store_address": "1stFl,L1-04 Emart Phan Huy Ich385 Phan Huy Ich",
+    "bill_id": "000000PHI2000050931",
+    "bill_id_barcode": null,
+    "buy_date": "30/06/2025",
+    "buy_time": "08:07",
+    "line_item": [
+      {
+        "product_SKU": "4909978136093",
+        "quantity": "1",
+        "product_name": "Serum Dưỡng Da Và Phục Hồi Da Sau Nắng",
+        "unit_price": "369,000",
+        "product_total": "369,000"
+      },
+      {
+        "product_SKU": "4909978147853",
+        "quantity": "1",
+        "product_name": "Xịt Chống Nắng Anessa Dưỡng Da Đa Năng",
+        "unit_price": "279,000",
+        "product_total": "279,000"
+      },
+      {
+        "product_SKU": "8935006543027",
+        "quantity": "1",
+        "product_name": "Kem Chấm Mụn Acnes Giảm Mụn Chuyên Sâu",
+        "unit_price": "49,000",
+        "product_total": "49,000"
+      },
+      {
+        "product_SKU": "8936000912055",
+        "quantity": "1",
+        "product_name": "Kềm Cắt Da Kềm Nghĩa Thép Chuyên Dụng",
+        "unit_price": "63,000",
+        "product_total": "63,000"
+      },
+      {
+        "product_SKU": "8859139107171",
+        "quantity": "1",
+        "product_name": "Dưỡng Thể Hương Nước Hoa Kiss My Body",
+        "unit_price": "169,000",
+        "product_total": "169,000"
+      },
+      {
+        "product_SKU": "4894532998647",
+        "quantity": "1",
+        "product_name": "Kem Rửa Tay Naturals By Watsons Prestige",
+        "unit_price": "48,000",
+        "product_total": "48,000"
+      },
+      {
+        "product_SKU": "900201",
+        "quantity": "1",
+        "product_name": "Túi giấy Kraft thân thiện với môi trường",
+        "unit_price": "5,000",
+        "product_total": "0"
+      },
+      {
+        "product_SKU": "901044",
+        "quantity": "1",
+        "product_name": "Xịt Thơm Toàn Thân Malissa Kiss Hương",
+        "unit_price": "0",
+        "product_total": "0"
+      }
+    ]
+  }

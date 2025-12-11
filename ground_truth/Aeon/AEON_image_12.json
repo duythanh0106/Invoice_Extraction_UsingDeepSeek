@@ -1,0 +1,18 @@
+{
+    "retailer_name": "AEON",
+    "store_name": "AEON - BÌNH TÂN",
+    "store_address": null,
+    "bill_id": "0050011",
+    "bill_id_barcode": null,
+    "buy_date": "23/12/2024",
+    "buy_time": "09:36",
+    "line_item": [
+      {
+        "product_SKU": "000004478966",
+        "quantity": "13",
+        "product_name": "BỘ QUÀ TẶNG ORION TẾT AN NORMAL 1005.6G",
+        "unit_price": "155.000",
+        "product_total": "2.015.000"
+      }
+    ]
+  }

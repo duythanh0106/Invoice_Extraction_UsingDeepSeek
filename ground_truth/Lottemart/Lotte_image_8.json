@@ -1,0 +1,25 @@
+{
+    "retailer_name": "LOTTE Mart",
+    "store_name": "LOTTE Mart VINH",
+    "store_address": "Dai Lo Lenin, K. Yen Son, P. HHTap, TP. Vinh",
+    "bill_id": "016241221020900030062377",
+    "bill_id_barcode": "016241221020900030062377",
+    "buy_date": "21/12/2024",
+    "buy_time": "09:06",
+    "line_item": [
+      {
+        "product_SKU": "8936036029338",
+        "quantity": "60",
+        "product_name": "ST-HQ ORION AN NHO 703.6G",
+        "unit_price": "103.900",
+        "product_total": "6.234.000"
+      },
+      {
+        "product_SKU": "8935005801029",
+        "quantity": "1",
+        "product_name": "N. KHOANG LAVIE 500ML",
+        "unit_price": "3.700",
+        "product_total": "3.700"
+      }
+    ]
+  }

@@ -1,0 +1,53 @@
+{
+    "retailer_name": "AEON",
+    "store_name": "AEON-BÌNH DƯƠNG CANARY",
+    "store_address": null,
+    "bill_id": "3110036",
+    "bill_id_barcode": null,
+    "buy_date": "20/12/2024",
+    "buy_time": "13:39",
+    "line_item": [
+      {
+        "product_SKU": "000009056282",
+        "quantity": "154",
+        "product_name": "BỘ QUÀ TẶNG ORION TẾT AN SMALL 703.6G",
+        "unit_price": "109.250",
+        "product_total": "16.824.500"
+      },
+      {
+        "product_SKU": "000001198225",
+        "quantity": "308",
+        "product_name": "NN PEPSI COLA 1.5L",
+        "unit_price": "19.000",
+        "product_total": "5.852.000"
+      },
+      {
+        "product_SKU": "000010191620",
+        "quantity": "154",
+        "product_name": "TẾT - HQ CHIN-SU MN (4 SẢN PHẨM)",
+        "unit_price": "137.750",
+        "product_total": "21.213.500"
+      },
+      {
+        "product_SKU": "000008986290",
+        "quantity": "150",
+        "product_name": "NƠ LỤA TÚ CẦU ĐỎ",
+        "unit_price": "11.400",
+        "product_total": "1.710.000"
+      },
+      {
+        "product_SKU": "000008986306",
+        "quantity": "4",
+        "product_name": "NƠ LỤA TÚ CẦU XANH",
+        "unit_price": "11.400",
+        "product_total": "45.600"
+      },
+      {
+        "product_SKU": "000001761283",
+        "quantity": "154",
+        "product_name": "GIẤY TRONG LỚN",
+        "unit_price": "11.400",
+        "product_total": "1.755.600"
+      }
+    ]
+  }

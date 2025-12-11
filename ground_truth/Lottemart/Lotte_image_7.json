@@ -1,0 +1,39 @@
+{
+    "retailer_name": "LOTTE Mart",
+    "store_name": "LOTTE Mart CAN THO",
+    "store_address": "84 MAU THAN, P. AN HOA, Q. NINH KIEU, TP. CAN THO",
+    "bill_id": "011241220021501660082624",
+    "bill_id_barcode": "011241220021501660082624",
+    "buy_date": "20/12/2024",
+    "buy_time": "19:36",
+    "line_item": [
+      {
+        "product_SKU": "8936150841960",
+        "quantity": "1",
+        "product_name": "CHAN GA R.X DL KIAORA 500G",
+        "unit_price": "109.000",
+        "product_total": "109.000"
+      },
+      {
+        "product_SKU": "8936036024746",
+        "quantity": "25",
+        "product_name": "ST-HQ ORION AN BIG 1204.6G",
+        "unit_price": "209.800",
+        "product_total": "5.245.000"
+      },
+      {
+        "product_SKU": "8936036025194",
+        "quantity": "5",
+        "product_name": "ST-HQ ORION AN TRUNG 1005.6G",
+        "unit_price": "152.700",
+        "product_total": "763.500"
+      },
+      {
+        "product_SKU": "8936036029338",
+        "quantity": "10",
+        "product_name": "ST-HQ ORION AN NHO 703.6G",
+        "unit_price": "103.900",
+        "product_total": "1.039.000"
+      }
+    ]
+  }

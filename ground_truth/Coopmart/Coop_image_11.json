@@ -1,0 +1,46 @@
+{
+    "retailer_name": "Co.opmart",
+    "store_name": "Co.opmart Ben Luc",
+    "store_address": "61 Quoc lo 1A, Khu pho 4, Thi tran Ben Luc, Huyen Ben Luc, Tinh Long An",
+    "bill_id": "M1-24-T2ADJ-01261431543",
+    "bill_id_barcode": "0051301424121343981",
+    "buy_date": "13/12/2024",
+    "buy_time": "20:43",
+    "line_item": [
+      {
+        "product_SKU": "8934673701112",
+        "quantity": "4",
+        "product_name": "SDN canxi Vinamilk bich 220m",
+        "unit_price": "4.300",
+        "product_total": "17.200"
+      },
+      {
+        "product_SKU": "8934841903041",
+        "quantity": "2",
+        "product_name": "Sua tt DLADY co duong goi180m",
+        "unit_price": "5.700",
+        "product_total": "11.400"
+      },
+      {
+        "product_SKU": "2000133822003",
+        "quantity": "30",
+        "product_name": "No gio goi qua-BenLuc990",
+        "unit_price": "45.000",
+        "product_total": "1.350.000"
+      },
+      {
+        "product_SKU": "8936036024173",
+        "quantity": "40",
+        "product_name": "Banh megion GOUTEOR.ht475.2g",
+        "unit_price": "135.000",
+        "product_total": "5.400.000"
+      },
+      {
+        "product_SKU": "8934804050102",
+        "quantity": "40",
+        "product_name": "Choco KITKA Gr.Tea hg136g-TE",
+        "unit_price": "81.000",
+        "product_total": "3.240.000"
+      }
+    ]
+  }

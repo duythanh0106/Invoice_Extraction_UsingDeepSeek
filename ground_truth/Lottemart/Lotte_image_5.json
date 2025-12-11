@@ -1,0 +1,18 @@
+{
+    "retailer_name": "LOTTE Mart",
+    "store_name": "LOTTE Mart BINH DUONG",
+    "store_address": "KDT THE SEASON BINH DUONG, P. LAI THIEU, TH",
+    "bill_id": "005241220020300030136370",
+    "bill_id_barcode": "005241220020300030136370",
+    "buy_date": "20/12/2024",
+    "buy_time": "10:43",
+    "line_item": [
+      {
+        "product_SKU": "8936036024746",
+        "quantity": "65",
+        "product_name": "ST-HQ ORION AN BIG 1204.6G",
+        "unit_price": "209.800",
+        "product_total": "13.637.000"
+      }
+    ]
+  }

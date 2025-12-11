@@ -1,0 +1,123 @@
+{
+    "retailer_name": "Co.opmart",
+    "store_name": "Co.opmart Ben Luc",
+    "store_address": "61 Quoc lo 1A, Khu pho 4, Thi tran Ben Luc, Huyen Ben Luc, Tinh Long An",
+    "bill_id": "M1-24-T2ADJ-01260842801",
+    "bill_id_barcode": "0051300824121118995",
+    "buy_date": "11/12/2024",
+    "buy_time": "08:54",
+    "line_item": [
+      {
+        "product_SKU": "2000133822003",
+        "quantity": "30",
+        "product_name": "No gio goi qua-lienLuc990",
+        "unit_price": "45.000",
+        "product_total": "1.350.000"
+      },
+      {
+        "product_SKU": "8936036024173",
+        "quantity": "40",
+        "product_name": "Banh megion GOUTEOR.ht475.2g",
+        "unit_price": "135.000",
+        "product_total": "5.400.000"
+      },
+      {
+        "product_SKU": "8934804050102",
+        "quantity": "40",
+        "product_name": "Choco KITKA Gr.Tea hg136g-TE",
+        "unit_price": "81.000",
+        "product_total": "3.240.000"
+      },
+      {
+        "product_SKU": "8936065120259",
+        "quantity": "10",
+        "product_name": "N.yen T.HOANG cd 12% 6x70ml",
+        "unit_price": "293.400",
+        "product_total": "2.934.000"
+      },
+      {
+        "product_SKU": "8996001303078",
+        "quantity": "10",
+        "product_name": "C-Banh quy bo DANISA ht 681g",
+        "unit_price": "191.000",
+        "product_total": "1.910.000"
+      },
+      {
+        "product_SKU": "8936110891653",
+        "quantity": "10",
+        "product_name": "B.dx Banh chungTet HG 250g-T",
+        "unit_price": "156.000",
+        "product_total": "1.560.000"
+      },
+      {
+        "product_SKU": "8720608618163",
+        "quantity": "10",
+        "product_name": "Tra Lip.ice.chanh hg 16x12g",
+        "unit_price": "40.300",
+        "product_total": "403.000"
+      },
+      {
+        "product_SKU": "8935001719830",
+        "quantity": "20",
+        "product_name": "KdeoCHUPS sour belt tc h112g",
+        "unit_price": "30.000",
+        "product_total": "600.000"
+      },
+      {
+        "product_SKU": "851231000129",
+        "quantity": "10",
+        "product_name": "Ntc coga V.France dao750ml-T",
+        "unit_price": "93.000",
+        "product_total": "930.000"
+      },
+      {
+        "product_SKU": "8935137601528",
+        "quantity": "10",
+        "product_name": "Tra olong hop bat giac DG 100",
+        "unit_price": "89.000",
+        "product_total": "890.000"
+      },
+      {
+        "product_SKU": "8000500005026",
+        "quantity": "10",
+        "product_name": "ChocoFERRERO htim 100g-T",
+        "unit_price": "191.000",
+        "product_total": "1.910.000"
+      },
+      {
+        "product_SKU": "8936103392341",
+        "quantity": "10",
+        "product_name": "Mo say deo Coop Finest 350g",
+        "unit_price": "145.000",
+        "product_total": "1.450.000"
+      },
+      {
+        "product_SKU": "8936103393645",
+        "quantity": "10",
+        "product_name": "Nho chile Coop Finest 250g",
+        "unit_price": "55.000",
+        "product_total": "550.000"
+      },
+      {
+        "product_SKU": "8936121240136",
+        "quantity": "10",
+        "product_name": "Hat Mac ca PAV's hu 480g",
+        "unit_price": "192.900",
+        "product_total": "1.929.000"
+      },
+      {
+        "product_SKU": "2960164001504",
+        "quantity": "0,15kg",
+        "product_name": "Hat de cuoi r.muoi kg-K990",
+        "unit_price": "657.700",
+        "product_total": "98.655"
+      },
+      {
+        "product_SKU": "2960164001504",
+        "quantity": "0,15kg",
+        "product_name": "Hat de cuoi r.muoi kg-K990",
+        "unit_price": "657.700",
+        "product_total": "98.655"
+      }
+    ]
+  }

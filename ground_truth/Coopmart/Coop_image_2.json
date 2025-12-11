@@ -1,0 +1,25 @@
+{
+    "retailer_name": "Co.opmart",
+    "store_name": "Co.opmart Nguyen Kiem",
+    "store_address": "571-573 Nguyen Kiem, Phuong 9, Quan Phu Nhuan, Thanh pho Ho Chi Minh",
+    "bill_id": "M1-24-A4LVR-00180520509",
+    "bill_id_barcode": "0016000524120750546",
+    "buy_date": "07/12/2024",
+    "buy_time": "15:58",
+    "line_item": [
+      {
+        "product_SKU": "8936036025194",
+        "quantity": "70",
+        "product_name": "B.ANGiftSetTET2 OR hg1005.6g",
+        "unit_price": "160.000",
+        "product_total": "11.200.000"
+      },
+      {
+        "product_SKU": "2000135914485",
+        "quantity": "40",
+        "product_name": "S-HQTET SGC2025-HA.NEW YEAR",
+        "unit_price": "454.900",
+        "product_total": "18.196.000"
+      }
+    ]
+  }

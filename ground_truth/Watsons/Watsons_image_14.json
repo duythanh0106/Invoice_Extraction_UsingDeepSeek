@@ -1,0 +1,25 @@
+{
+    "retailer_name": "Watsons",
+    "store_name": "Watsons Vivo",
+    "store_address": "1058 Nguyễn Văn Linh P.Tân Phong, Q.7",
+    "bill_id": "00000VVCT1000019817",
+    "bill_id_barcode": null,
+    "buy_date": "30/06/2025",
+    "buy_time": "06:30",
+    "line_item": [
+      {
+        "product_SKU": "4514254977767",
+        "quantity": "4",
+        "product_name": "Sữa Rửa Mặt Tạo Bọt D Program Essence In",
+        "unit_price": "199,000",
+        "product_total": "796,000"
+      },
+      {
+        "product_SKU": "900201",
+        "quantity": "1",
+        "product_name": "Túi giấy Kraft thân thiện với môi trường",
+        "unit_price": "5,000",
+        "product_total": "0"
+      }
+    ]
+  }

@@ -1,0 +1,18 @@
+{
+    "retailer_name": "LOTTE Mart",
+    "store_name": "LOTTE Mart CAN THO",
+    "store_address": "84 MAU THAN, P. AN HOA, Q. NINH KIEU, TP. CAN THO",
+    "bill_id": "011241221021300740050431",
+    "bill_id_barcode": "011241221021300740050431",
+    "buy_date": "21/12/2024",
+    "buy_time": "11:19",
+    "line_item": [
+      {
+        "product_SKU": "8936036024173",
+        "quantity": "37",
+        "product_name": "BANH HT GOUTE HT 475.2G",
+        "unit_price": "136.300",
+        "product_total": "5.043.100"
+      }
+    ]
+  }

@@ -1,0 +1,18 @@
+{
+    "retailer_name": "Co.opmart",
+    "store_name": "Co.opmart Phan Van Hon",
+    "store_address": "102 Phan Van Hon, P. Tan Thoi Nhat, Quan 12, Thanh pho Ho Chi Minh",
+    "bill_id": "M1-24-PECCB-00201125309",
+    "bill_id_barcode": "0015801124120615769",
+    "buy_date": "06/12/2024",
+    "buy_time": "14:46",
+    "line_item": [
+      {
+        "product_SKU": "8936036025194",
+        "quantity": "580",
+        "product_name": "B.ANGiftSetTET2 OR hg1005.6g",
+        "unit_price": "160.000",
+        "product_total": "92.800.000"
+      }
+    ]
+  }

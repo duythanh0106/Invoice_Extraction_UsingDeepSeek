@@ -31,55 +31,95 @@ Your task is to extract data from the provided OCR text into a JSON object.
 
 1. **Retailer Name (Flexible)**: 
    - Look at the header (top) of the text.
-   - Identify the main **Brand Name** (e.g., "Bách Hóa Xanh").
+   - Identify the main **Brand Name** (e.g., "co.opmart").
    - **Constraint**: If the text contains the brand name, extract it. If the top section is garbled, missing, or unclear, set `"retailer_name": null`.
-   - **Do NOT** default to "Bách Hóa Xanh" if the text does not support it.
 
-2. **Prices & Line Items (Math Logic)**:
-   - OCR often misses the "Unit Price" column.
-   - **Logic**: If `unit_price` is missing but `product_total` and `quantity` exist, CALCULATE: `unit_price` = `product_total` / `quantity`.
-   - If `quantity` is found on a separate line below the product name, link them together.
+
+2. **Prices & Line Items (Coopmart Logic)**:
+   - Coopmart receipts typically list items in **2 lines**:
+     	Product Name.
+        VAT	Quantity	Unit_price	Product_total
+   - SKU - typically a long number starting with 89...
+   - Quantity - Unit Price - Product Total.
+     **Math Logic**: If `product_total` is missing or merged, but `unit_price` and `quantity` exist, CALCULATE: `product_total` = `unit_price` * `quantity`.
+     If `product_total` is found on a separate line below the product name, link them together.
+     **Clean Data**: Remove "VAT", "CK", "|" characters from the numbers.
 
 3. **General Rules**:
-   - Dates: Convert to DD/MM/YYYY.
+   - **Bill ID**: Look for "Ma CQT”, “CQT”, “ Ma CCT”.
+   - **Barcode**: Usually at the BOTTOM, typically a long number starting with 00...
+   - **Date/Time**: Convert to DD/MM/YYYY. Ignore seconds in time, convert to HH:MM.
    - Nulls: Use `null` for any missing field.
 
-For example: 
-    data:
+For example:
+
+    input:
     '
-        PHIẾU THANH TOÁN BÁCH HÓA XANH  
-        Số CT: OV20539641111170 - 01/11/2024 09:18:NV: 236464 
-        SL    Giá bán (có VAT)    Thành tiền  
-        thùng 24 chai trà xanh không độ vị chanh 455ml  
-        1    245.000 168.000    168.000 '
+        co.opmart  
+        
+        Co.opMart Phan Van Tri
+        Mã số thực: 0309120630  
+        543/1 Phan Van Tri, Phuong 7, Quan Go Vap,  
+        Thanh pho Ho Chi Minh  
+    
+        Don hang siêu thị  
+        Ma CQT: M1-24-MKWR-00251306951  
+        Quay: 13  
+        Ngày: 11/12/2024 09:00:51 
 
+        8936036025194  
+        B.ANGIFTsetTET2 OR hg1005.6g  
+        VAT8% 580 160,000 ₫ 92,800,000 ₫
+        893603024746 B: ANGIFISETIET3 OR HGD204.6g  
+        VAT86: 33 214.500 ₫                             #missing value for 'product_total'
+        8936036027259 B.MartikacookFlow.or.h443zg-VAT8%  53    149.000 ₫   7.897.000 ₫
+
+        Cam on Quy khach - Hen gap lai  
+
+        001580112412061576                              #this is barcode ID
+    '
+    
     output: 
-        retailer_name: 'BÁCH HÓA XANH',
-        store_name: null,
-        store_address: null,
-        bill_id: 'OV20539641111170'
-        bill_id_barcode: null,
-        buy_date: '01/11/2024',
-        buy_time: '09:18',
-        line_item:
-            product_SKU: null,
-            quantity: '1',
-            product_name: 'thùng 24 chai trà xanh không độ vị chanh 455ml',
-            unit_price: '168.000',
-            product_total: '168.000' 
+        retailer_name: "co.opmart",
+        store_name: "Co.opmart Phan Van Tri",
+        store_address: “543/1 Phan Van Tri, Phuong 7, Quan Go Vap, Thanh pho Ho Chi Minh”,
+        bill_id: "M1-24-MKWR-00251306951 "
+        bill_id_barcode: “001580112412061576”,
+        buy_date: "11/12/2024",
+        buy_time: "09:00",
+        line_items: 
+            product_SKU: "8936036025194",
+            quantity: "580",
+            product_name: "B.ANGIFTsetTET2 OR hg1005.6g",
+            unit_price: "160,000",
+            product_total: "92,800,000",
 
+	        product_SKU: "893603024746",
+            quantity: "33",
+            product_name: "B: ANGIFISETIET3 OR HGD204.6g",
+            unit_price: "214.500",
+            product_total: "7.078.500",                     #'product_total'= 'unit_price' * 'quantity'
+
+            product_SKU: "8936036027259",
+            quantity: "53",
+            product_name: "B.MartikacookFlow.or.h443zg-",
+            unit_price: "149.000",
+            product_total: "7.897.000"
+
+
+            
 ### JSON SCHEMA:
 {{
   "retailer_name": "Brand name found in text (or null)",
   "store_name": "Store/Branch name (or null)",
   "store_address": "Address string (or null)",
-  "bill_id": "Invoice Number (Look for 'Số CT', or 'Số CN, or 'Số') (or null)",
+  "bill_id": "Invoice Number (or null)",
   "bill_id_barcode": "Lookup code/Barcode string (or null)",
   "buy_date": "DD/MM/YYYY",
   "buy_time": "HH:MM",
   "line_items": [
     {{
-      "product_SKU": "Product code (or null)",
+      "product_SKU": "Product code (Look for long number like 89...)",
       "quantity": "String",
       "product_name": "String",
       "unit_price": "String",

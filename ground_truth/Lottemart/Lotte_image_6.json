@@ -1,0 +1,18 @@
+{
+    "retailer_name": "LOTTE Mart",
+    "store_name": "LOTTE Mart VINH",
+    "store_address": "Dai Lo Lenin, K. Yen Son, P. HHTap, TP. Vinh",
+    "bill_id": "016241220020100140050911",
+    "bill_id_barcode": "016241220020100140050911",
+    "buy_date": "20/12/2024",
+    "buy_time": "10:37",
+    "line_item": [
+      {
+        "product_SKU": "8936036029338",
+        "quantity": "49",
+        "product_name": "ST-HQ ORION AN NHO 703.6G",
+        "unit_price": "103.900",
+        "product_total": "5.091.100"
+      }
+    ]
+  }

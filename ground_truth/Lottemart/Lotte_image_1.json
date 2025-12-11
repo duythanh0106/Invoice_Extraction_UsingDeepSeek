@@ -1,0 +1,200 @@
+{
+    "retailer_name": "LOTTE Mart",
+    "store_name": "LOTTE Mart BINH DUONG",
+    "store_address": "KDT THE SEASON BINH DUONG, P. LAI THIEU, TH",
+    "bill_id": "005241218020400920099665",
+    "bill_id_barcode": "005241218020400920099665",
+    "buy_date": "18/12/2024",
+    "buy_time": "13:51",
+    "line_item": [
+      {
+        "product_SKU": "8936036028140",
+        "quantity": "105",
+        "product_name": "ST-BANH QUY BO MARIKA 252G",
+        "unit_price": "80.900",
+        "product_total": "8.494.500"
+      },
+      {
+        "product_SKU": "8935049501381",
+        "quantity": "2",
+        "product_name": "NN COCA GIAM DUONG CHAI 1.5L",
+        "unit_price": "18.800",
+        "product_total": "37.600"
+      },
+      {
+        "product_SKU": "8935049501398",
+        "quantity": "2",
+        "product_name": "NN COCA GIAM DUONG 2.25L",
+        "unit_price": "22.700",
+        "product_total": "45.400"
+      },
+      {
+        "product_SKU": "8934588883064",
+        "quantity": "2",
+        "product_name": "NN MIRINDA CAM CHAI 1.5L",
+        "unit_price": "17.900",
+        "product_total": "35.800"
+      },
+      {
+        "product_SKU": "8935049500445",
+        "quantity": "2",
+        "product_name": "NN FANTA CAM CHAI 1.5L",
+        "unit_price": "18.800",
+        "product_total": "37.600"
+      },
+      {
+        "product_SKU": "28935049502245",
+        "quantity": "1",
+        "product_name": "NUOC NGOT COCA SLEEK 320ML",
+        "unit_price": "201.600",
+        "product_total": "201.600"
+      },
+      {
+        "product_SKU": "8858638001508",
+        "quantity": "2",
+        "product_name": "NN BIG CAM PET 3.1L",
+        "unit_price": "27.000",
+        "product_total": "54.000"
+      },
+      {
+        "product_SKU": "8935049501039",
+        "quantity": "2",
+        "product_name": "NN SPRITE CHAI 1.85L",
+        "unit_price": "18.800",
+        "product_total": "37.600"
+      },
+      {
+        "product_SKU": "8935049501305",
+        "quantity": "2",
+        "product_name": "NN FANTA SODA KEM CHAI 1.5L",
+        "unit_price": "18.800",
+        "product_total": "37.600"
+      },
+      {
+        "product_SKU": "8934588363061",
+        "quantity": "2",
+        "product_name": "NN MIRINDA SODAKEM CHAI 1.5L",
+        "unit_price": "17.900",
+        "product_total": "35.800"
+      },
+      {
+        "product_SKU": "8934564600357",
+        "quantity": "6",
+        "product_name": "T. XANH C2 H. CHANH 455ML",
+        "unit_price": "8.700",
+        "product_total": "52.200"
+      },
+      {
+        "product_SKU": "8934588293108",
+        "quantity": "2",
+        "product_name": "TRA OLONG CHANH TEA+ 1L",
+        "unit_price": "17.000",
+        "product_total": "34.000"
+      },
+      {
+        "product_SKU": "8934683008867",
+        "quantity": "6",
+        "product_name": "NTL CAFE WAKEUP 247 330ML",
+        "unit_price": "10.500",
+        "product_total": "63.000"
+      },
+      {
+        "product_SKU": "8934588883279",
+        "quantity": "1",
+        "product_name": "NN MIRINDA CAM CHAI 390ML",
+        "unit_price": "36.000",
+        "product_total": "36.000"
+      },
+      {
+        "product_SKU": "8935049501190",
+        "quantity": "6",
+        "product_name": "TRA CHANH SA FUZE 450ML",
+        "unit_price": "7.600",
+        "product_total": "45.600"
+      },
+      {
+        "product_SKU": "8992775301104",
+        "quantity": "1",
+        "product_name": "BANH GERY CUON SOCO 276G",
+        "unit_price": "44.100",
+        "product_total": "44.100"
+      },
+      {
+        "product_SKU": "8801062864317",
+        "quantity": "1",
+        "product_name": "GN-BANH QUY LOTTE SET 277G",
+        "unit_price": "63.900",
+        "product_total": "63.900"
+      },
+      {
+        "product_SKU": "8809027550411",
+        "quantity": "1",
+        "product_name": "GS-BAP BUNG CARAMEL G.T 170G",
+        "unit_price": "73.700",
+        "product_total": "73.700"
+      },
+      {
+        "product_SKU": "0074603003287",
+        "quantity": "2",
+        "product_name": "KR-MI SAMYANG K.C RAMEN 120G",
+        "unit_price": "26.900",
+        "product_total": "53.800"
+      },
+      {
+        "product_SKU": "0031146150205",
+        "quantity": "2",
+        "product_name": "KR-MI NEOGURI HAI SAN MID 120G",
+        "unit_price": "26.500",
+        "product_total": "53.000"
+      },
+      {
+        "product_SKU": "8801073110168",
+        "quantity": "2",
+        "product_name": "KR-MI SAMYANG RAU CAI 115G",
+        "unit_price": "32.900",
+        "product_total": "65.800"
+      },
+      {
+        "product_SKU": "8801073114814",
+        "quantity": "2",
+        "product_name": "KR-MI K.GA SAMYANG CREAM140G",
+        "unit_price": "25.500",
+        "product_total": "51.000"
+      },
+      {
+        "product_SKU": "0031146157396",
+        "quantity": "2",
+        "product_name": "MI ANSUNGTANG MISO CAY 125G",
+        "unit_price": "26.500",
+        "product_total": "53.000"
+      },
+      {
+        "product_SKU": "8801073113329",
+        "quantity": "1",
+        "product_name": "KR-MI SAMYANG GA CAY 140G",
+        "unit_price": "38.900",
+        "product_total": "38.900"
+      },
+      {
+        "product_SKU": "8801043022705",
+        "quantity": "2",
+        "product_name": "KR-MI SOON VEGGIE 112G",
+        "unit_price": "28.900",
+        "product_total": "57.800"
+      },
+      {
+        "product_SKU": "8801043036719",
+        "quantity": "1",
+        "product_name": "KR-SNACK NONGSHIM SIRO 90G",
+        "unit_price": "34.000",
+        "product_total": "34.000"
+      },
+      {
+        "product_SKU": "8801043036238",
+        "quantity": "1",
+        "product_name": "KR-SNACK NONGSHIM MUC 90G",
+        "unit_price": "34.000",
+        "product_total": "34.000"
+      }
+    ]
+  }

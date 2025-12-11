@@ -1,0 +1,25 @@
+{
+    "retailer_name": "AEON",
+    "store_name": "AEON - BÌNH DƯƠNG CANARY",
+    "store_address": null,
+    "bill_id": "0150066",
+    "bill_id_barcode": null,
+    "buy_date": "25/12/2024",
+    "buy_time": "12:20",
+    "line_item": [
+      {
+        "product_SKU": "000009056282",
+        "quantity": "20",
+        "product_name": "BỘ QUÀ TẶNG ORION TẾT AN SMALL 703.6G",
+        "unit_price": "115.000",
+        "product_total": "2.300.000"
+      },
+      {
+        "product_SKU": "000001198355",
+        "quantity": "1",
+        "product_name": "NƯỚC AQUAFINA 500ML",
+        "unit_price": "5.400",
+        "product_total": "5.400"
+      }
+    ]
+  }

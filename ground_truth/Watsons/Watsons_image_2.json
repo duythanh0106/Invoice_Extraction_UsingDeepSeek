@@ -1,0 +1,18 @@
+{
+    "retailer_name": "Watsons",
+    "store_name": "Watsons Central Premium",
+    "store_address": "1st Fl,L1-02A Central Premium854-856 Ta Quang Buu",
+    "bill_id": "0000000CP1000004720",
+    "bill_id_barcode": null,
+    "buy_date": "30/06/2025",
+    "buy_time": "08:52",
+    "line_item": [
+      {
+        "product_SKU": "4909978147105",
+        "quantity": "1",
+        "product_name": "Sữa Chống Nắng Anessa Dưỡng Da Kiềm",
+        "unit_price": "429,000",
+        "product_total": "429,000"
+      }
+    ]
+  }

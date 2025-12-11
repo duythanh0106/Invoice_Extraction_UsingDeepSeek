@@ -1,0 +1,25 @@
+{
+    "retailer_name": "AEON",
+    "store_name": "AEON - HÀ ĐÔNG",
+    "store_address": null,
+    "bill_id": "8110014",
+    "bill_id_barcode": null,
+    "buy_date": "20/12/2024",
+    "buy_time": "12:49",
+    "line_item": [
+      {
+        "product_SKU": "000009056282",
+        "quantity": "24",
+        "product_name": "BỘ QUÀ TẶNG ORION TẾT AN SMALL 703.6G",
+        "unit_price": "109.250",
+        "product_total": "2.622.000"
+      },
+      {
+        "product_SKU": "000001684308",
+        "quantity": "20",
+        "product_name": "TẾT-GOUTE 475,2G 12 GOI",
+        "unit_price": "122.550",
+        "product_total": "2.451.000"
+      }
+    ]
+  }

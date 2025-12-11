@@ -1,0 +1,25 @@
+{
+    "retailer_name": "Co.opmart",
+    "store_name": "Co.opmart Phan Van Tri",
+    "store_address": "543/1 Phan Van Tri, Phuong 7, Quan Go Vap, Thanh pho Ho Chi Minh",
+    "bill_id": "M1-24-MKWSR-00251306951",
+    "bill_id_barcode": "0016201324121116189",
+    "buy_date": "11/12/2024",
+    "buy_time": "09:00",
+    "line_item": [
+      {
+        "product_SKU": "8936036027259",
+        "quantity": "53",
+        "product_name": "B.MarikaCookFlow.OR. ht432g",
+        "unit_price": "149.000",
+        "product_total": "7.897.000"
+      },
+      {
+        "product_SKU": "8938504125474",
+        "quantity": "53",
+        "product_name": "Hat dieu lua BATU OCOP h350g",
+        "unit_price": "163.500",
+        "product_total": "8.665.500"
+      }
+    ]
+  }

@@ -1,0 +1,18 @@
+{
+    "retailer_name": "Co.opmart",
+    "store_name": "Co.opmart Binh Duong",
+    "store_address": "So 368 - Duong 30/4, Phuong Chanh Nghia, Thanh pho Thu Dau Mot, Tinh Binh Duong",
+    "bill_id": "M1-24-OYIZ8-01292825398",
+    "bill_id_barcode": "0051602824120953270",
+    "buy_date": "09/12/2024",
+    "buy_time": "19:27",
+    "line_item": [
+      {
+        "product_SKU": "8936036024746",
+        "quantity": "33",
+        "product_name": "B.ANGiftSetTET3 OR hg1204.6g",
+        "unit_price": "214.500",
+        "product_total": "7.078.500"
+      }
+    ]
+  }

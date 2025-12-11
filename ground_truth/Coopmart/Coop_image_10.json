@@ -1,0 +1,39 @@
+{
+    "retailer_name": "Co.opmart",
+    "store_name": "Co.opmart Ben Luc",
+    "store_address": "61 Quoc lo 1A, Khu pho 4, Thi tran Ben Luc, Huyen Ben Luc, Tinh Long An",
+    "bill_id": "M1-24-T2ADJ-01260758715",
+    "bill_id_barcode": "0051300724121373262",
+    "buy_date": "13/12/2024",
+    "buy_time": "20:06",
+    "line_item": [
+      {
+        "product_SKU": "8936036024173",
+        "quantity": "40",
+        "product_name": "Banh megion GOUTEOR.ht475.2g",
+        "unit_price": "135.000",
+        "product_total": "5.400.000"
+      },
+      {
+        "product_SKU": "8934804050102",
+        "quantity": "40",
+        "product_name": "Choco KITKA Gr.Tea hg136g-TE",
+        "unit_price": "81.000",
+        "product_total": "3.240.000"
+      },
+      {
+        "product_SKU": "8936065120259",
+        "quantity": "10",
+        "product_name": "N.yen T.HOANG cd 12% 6x70ml",
+        "unit_price": "293.400",
+        "product_total": "2.934.000"
+      },
+      {
+        "product_SKU": "8996001303078",
+        "quantity": "10",
+        "product_name": "C-Banh quy bo DANISA ht 681g",
+        "unit_price": "191.000",
+        "product_total": "1.910.000"
+      }
+    ]
+  }

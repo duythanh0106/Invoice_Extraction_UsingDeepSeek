@@ -1,0 +1,39 @@
+{
+    "retailer_name": "Watsons",
+    "store_name": "Watsons Van Hanh Mall",
+    "store_address": "2nd Fl,2-31 Van Hanh Mall11 Su Van Hanh",
+    "bill_id": "000000VHM2000003296",
+    "bill_id_barcode": null,
+    "buy_date": "30/06/2025",
+    "buy_time": "05:32",
+    "line_item": [
+      {
+        "product_SKU": "4514254101797",
+        "quantity": "2",
+        "product_name": "Tinh Chất BB Chống Nắng Trang Điểm D",
+        "unit_price": "409,000",
+        "product_total": "736,200"
+      },
+      {
+        "product_SKU": "4901301043214",
+        "quantity": "1",
+        "product_name": "Băng Vệ Sinh Laurier Hằng Ngày Không",
+        "unit_price": "30,000",
+        "product_total": "27,000"
+      },
+      {
+        "product_SKU": "8851818969414",
+        "quantity": "1",
+        "product_name": "Băng Vệ Sinh Laurier Active Fit Ag+ Miếng Lót",
+        "unit_price": "32,000",
+        "product_total": "28,800"
+      },
+      {
+        "product_SKU": "900200",
+        "quantity": "2",
+        "product_name": "Túi giấy Kraft thân thiện với môi trường",
+        "unit_price": "2,000",
+        "product_total": "0"
+      }
+    ]
+  }

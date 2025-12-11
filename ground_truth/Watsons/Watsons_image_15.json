@@ -1,0 +1,32 @@
+{
+    "retailer_name": "Watsons",
+    "store_name": "Watsons Sense City Can Tho",
+    "store_address": "Số 01 Đại lộ Hoà Bình, X. Tân An, H. Ninh Kiều",
+    "bill_id": "000000SCT2000048657",
+    "bill_id_barcode": null,
+    "buy_date": "30/06/2025",
+    "buy_time": "06:43",
+    "line_item": [
+      {
+        "product_SKU": "4514254977750",
+        "quantity": "1",
+        "product_name": "Nước Tẩy Trang D Program Essence In",
+        "unit_price": "390,000",
+        "product_total": "351,000"
+      },
+      {
+        "product_SKU": "4514254977767",
+        "quantity": "1",
+        "product_name": "Sữa Rửa Mặt Tạo Bọt D Program Essence In",
+        "unit_price": "199,000",
+        "product_total": "179,100"
+      },
+      {
+        "product_SKU": "900200",
+        "quantity": "1",
+        "product_name": "Túi giấy Kraft thân thiện với môi trường",
+        "unit_price": "2,000",
+        "product_total": "0"
+      }
+    ]
+  }
